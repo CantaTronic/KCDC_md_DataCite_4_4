@@ -50,13 +50,26 @@ Rights:
   rightsURI: https://kcdc.iap.kit.edu/static/pdf/kcdc_mainpage/EULA.pdf
 Description: 
   - 
-    value: Events where LOPES has reconstructed data
     descriptionType: Abstract
-  #Table of Contents?
+    value: Events where LOPES has reconstructed data
+  -
+    descriptionType: Table of Contents
+    value: |                             # field "Data file names / sizes" in KCDC
+      array.txt / 75 kB
+      general.txt / 348 kB
+      lopes.txt / 732 kB
+      grande.txt / 237 kB
+      row_mapping.txt / 52 kB
   -
     descriptionType: TechnicalInfo
+    #field "Number of events" + content of the 'info.txt' (all the tables except the first one in the pdf)
     value: |
-      Number of events matching Cuts: 3058
+      Number of events:
+        general 3,058
+        array 769
+        grande 2,763
+        lopes 3,058
+      Number of events matching Cuts: 3058                                        
       Your requested observables:
       GRANDE (grande)
           Age [Shower Age]: type=Numerical [Float64] unit=None
