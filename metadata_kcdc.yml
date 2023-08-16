@@ -1,0 +1,111 @@
+Identifier (with mandatory type sub-property)
+Creator (with optional given name, family name, name identifier, and affiliation sub-properties)
+Title (with optional type sub-properties)
+Publisher 
+PublicationYear
+ResourceType (with mandatory general type description subproperty)
+
+
+Identifier: 
+  identifierType: DOI
+  value: doi.org/10.17616/R3TS4P
+Creator: 
+  creatorName: 
+    value: Institute for Astroparticle Physics, Karlsruhe Institute of Technology
+    nameType: Organizational
+Title:
+  value: KASCADE-LOPES_runs_5534-6821_ASCII        #in KCDC pdfs it's "Set name"
+  titleType: Main Title
+Publisher: KASCADE Cosmic Ray Data Centre (KCDC)
+PublicationYear: 2020                 #include the Date/dateType/ dateInformation property and sub-properties to provide more information about the publication or release date details.
+ResourceType: 
+  resourceTypeGeneral: Dataset
+  value: Reconstructed events         #don't forget to add the setup name
+Subject:
+  value: Cosmic rays & astroparticles
+  subjectScheme: PhySH (Physics Subject Headings)
+  schemeURI: https://physh.org/browse
+  valueURI: https://physh.org/concepts/678197d1-8bf1-4c16-86cc-8133fba03b86
+  classificationCode: 678197d1-8bf1-4c16-86cc-8133fba03b86
+Contributor: 
+  contributorType: ResearchGroup
+  contributorName: 
+    value: KASCADE-Grande Collaboration
+    nameType: Organizational
+  affiliation: 
+    value: Karlsruhe Institute of Technology 
+    affiliationIdentifier: https://ror.org/04t3en479
+    affiliationIdentifierScheme: ROR
+    SchemeURI: https://ror.org
+Date:
+  value: 2020-04-20  # в KCDC исп-ся формат DD.M.YYYY
+  dateType: Created
+  dateInformation: Data selection OCEANUS
+Language: en
+Size: 542 kB      #Zip-file name / size 
+Format: ASCII     #Data format
+Version: OCEANUS 1.0  #May be used in conjunction with properties 11 and 12 (AlternateIdentifier and RelatedIdentifier) to indicate various information updates. May be used in conjunction with property 17 (Description) to indicate the nature and file/record range of version.
+Rights:
+  value: End User Licence Agreement for using the KCDC IAP webportal and the KCDC data (EULA)
+  rightsURI: https://kcdc.iap.kit.edu/static/pdf/kcdc_mainpage/EULA.pdf
+Description: 
+  - 
+    value: Events where LOPES has reconstructed data
+    descriptionType: Abstract
+  #Table of Contents?
+  -
+    descriptionType: TechnicalInfo
+    value: |
+      Number of events matching Cuts: 3058
+      Your requested observables:
+      GRANDE (grande)
+          Age [Shower Age]: type=Numerical [Float64] unit=None
+          Az [Azimuth Angle]: type=Numerical [Float64] unit=°
+          Nch [Nr of Charged]: type=Numerical [Float64] unit=[log10]
+          Nmu [Nr of Muons]: type=Numerical [Float64] unit=[log10]
+          Xc [X-Core Position]: type=Numerical [Float64] unit=m
+          Yc [Y-Core Position]: type=Numerical [Float64] unit=m
+          Ze [Zenith Angle]: type=Numerical [Float64] unit=°
+      General Info (general)
+          Datetime [DateTime]: type=Date unit=None
+          Ev [Event Number]: type=Numerical [Int32] unit=None
+          Gt [Global Time]: type=Numerical [Int32] unit=sec
+          M [Mt]: type=Numerical [Int32] unit=ns
+          P [Air Pressure]: type=Numerical [Float64] unit=hPa
+          R [Run Number]: type=Numerical [Int32] unit=None
+          T [Air Temperature]: type=Numerical [Float64] unit=℃
+          UUID [UUID]: type=UUID [Int32] unit=None
+      KASCADE (array)
+          Age [Shower Age]: type=Numerical [Float64] unit=None
+          Az [Azimuth Angle]: type=Numerical [Float64] unit=°
+          E [Energy]: type=Numerical [Float64] unit=eV [log10]
+          Ne [Electron Number]: type=Numerical [Float64] unit=[log10]
+          Nmu [Muon Number]: type=Numerical [Float64] unit=[log10]
+          Xc [X Core Position]: type=Numerical [Float64] unit=m
+          Yc [Y Core Position]: type=Numerical [Float64] unit=m
+          Ze [Zenith Angle]: type=Numerical [Float64] unit=°
+      LOPES (lopes)
+          AzL_EW [Azimuth EW]: type=Numerical [Float64] unit=°
+          AzL_NS [Azimuth NS]: type=Numerical [Float64] unit=°
+          CCheight_EW [CC Height EW]: type=Numerical [Float64] unit=μV/m/MHz
+          CCheight_NS [CC Height NS]: type=Numerical [Float64] unit=μV/m/MHz
+          EfieldMaxAbs [E-FieldMax]: type=Numerical [Float64] unit=V/m
+          ElL_EW [Elevation EW]: type=Numerical [Float64] unit=°
+          ElL_NS [Elevation NS]: type=Numerical [Float64] unit=°
+          Geomagnetic_Angle [Geomag Angle]: type=Numerical [Float64] unit=°
+          Geomagnetic_AngleG [Geomag AngleG]: type=Numerical [Float64] unit=°
+          LopesCompID [LOPES Comp ID]: type=Numerical [Int32] unit=None
+              Cut: 1.0 to 1.0
+          NCCbeamAntennas_EW [NCCbeamAnt EW]: type=Numerical [Int32] unit=None
+          NCCbeamAntennas_NS [NCCbeamAnt NS]: type=Numerical [Int32] unit=None
+          Xheight_EW [X Height EW]: type=Numerical [Float64] unit=μV/m/MHz
+          Xheight_NS [X Height NS]: type=Numerical [Float64] unit=μV/m/MHz
+          coneAngle_EW [ConeAngle EW]: type=Numerical [Float64] unit=rad
+          coneAngle_NS [ConeAngle NS]: type=Numerical [Float64] unit=rad
+          eps_EW [Eps EW]: type=Numerical [Float64] unit=μV/m/MHz
+          eps_NS [Eps NS]: type=Numerical [Float64] unit=μV/m/MHz
+          eta_EW [Eta EW]: type=Numerical [Float64] unit=1/m
+          eta_NS [Eta NS]: type=Numerical [Float64] unit=1/m
+          reconstruction [Reconstruction]: type=Numerical [Int32] unit=None
+          rmsCCbeam_EW [rmsCCBeam EW]: type=Numerical [Float64] unit=μV/m/MHz
+          rmsCCbeam_NS [rmsCCBeam NS]: type=Numerical [Float64] unit=μV/m/MHz
