@@ -1,0 +1,69 @@
+{
+    "Identifier": {
+        "identifierType": "DOI",
+        "value": "doi.org/10.17616/R3TS4P"
+    },
+    "Creator": {
+        "creatorName": {
+            "value": "Institute for Astroparticle Physics, Karlsruhe Institute of Technology",
+            "nameType": "Organizational"
+        }
+    },
+    "Title": {
+        "value": "KASCADE_ReducedData _runs_0877-4683_ROOT",
+        "titleType": "Main Title"
+    },
+    "Publisher": "KASCADE Cosmic Ray Data Centre (KCDC)",
+    "PublicationYear": 2020,
+    "ResourceType": {
+        "resourceTypeGeneral": "Dataset",
+        "value": "Reconstructed events"
+    },
+    "Subject": {
+        "value": "Cosmic rays & astroparticles",
+        "subjectScheme": "PhySH (Physics Subject Headings)",
+        "schemeURI": "https://physh.org/browse",
+        "valueURI": "https://physh.org/concepts/678197d1-8bf1-4c16-86cc-8133fba03b86",
+        "classificationCode": "678197d1-8bf1-4c16-86cc-8133fba03b86"
+    },
+    "Contributor": {
+        "contributorType": "ResearchGroup",
+        "contributorName": {
+            "value": "KASCADE-Grande Collaboration",
+            "nameType": "Organizational"
+        },
+        "affiliation": {
+            "value": "Karlsruhe Institute of Technology",
+            "affiliationIdentifier": "https://ror.org/04t3en479",
+            "affiliationIdentifierScheme": "ROR",
+            "SchemeURI": "https://ror.org"
+        }
+    },
+    "Date": {
+        "value": "2020-05-07",
+        "dateType": "Created",
+        "dateInformation": "Data selection NABOO"
+    },
+    "Language": "en",
+    "Size": "542 kB",
+    "Format": "ROOT",
+    "Version": "NABOO",
+    "Rights": {
+        "value": "End User Licence Agreement for using the KCDC IAP webportal and the KCDC data (EULA)",
+        "rightsURI": "https://kcdc.iap.kit.edu/static/pdf/kcdc_mainpage/EULA.pdf"
+    },
+    "Description": [
+        {
+            "descriptionType": "Abstract",
+            "value": "Analyses with high energetic particles"
+        },
+        {
+            "descriptionType": "Table of Contents",
+            "value": "Data file names / sizes events.h5 / 131 MB"
+        },
+        {
+            "descriptionType": "TechnicalInfo",
+            "value": "KASCADE quantities selected\nQuantity\tDescription\tRange\tCut\nE\tEstimated primary energy\t1013 -1019 eV\tfull range\nXc\tX-core position\t-91 - +91 m\tfull range\nYc\tY-core position\t-91 - +91 m\tfull range\nZe\tZenith angle\t0° - 60°\tfull range\nAz\tAzimuth angle\t0° - 360°\tfull range\nNe\tNumber of e/particles\t100 - 500,000,000\tfull range\nNmu\tNumber of Muons\t100 - 50,000,000\tfull range\nAge\tShower age\t0.1 – 1.48\tfull range\n\n\ngeneral quantities selected\nQuantity\tDescription\tRange\tCut\nT\tAir temperature\t-20 ° - +50°\tfull range\nP\tAir pressure\t960 -1040 hPa\tfull range\nGt\tGlobal time (sec’s since 1.1.1970)\t894,638,100 –\t1,017,887,940\ncut\tMt\tMicro time\t0 – 999,999,999\nfull range\tDateTime Date & Time\t8.5.1998–20.12.2003\tcut\nR\tRun number\t877 – 4683\tcut\nEv\tEvent number\t1 – 4,100,000\tfull range\n\n\nremark\nThis is the data set published up to now with the releases VULCAN and\nMERIDIAN. The only difference is that the data for this release have been\nreanalyzed using a more precise time calibration for the KASCADE array."
+        }
+    ]
+}

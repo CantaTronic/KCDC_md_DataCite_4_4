@@ -1,0 +1,68 @@
+Contributor:
+  affiliation:
+    SchemeURI: https://ror.org
+    affiliationIdentifier: https://ror.org/04t3en479
+    affiliationIdentifierScheme: ROR
+    value: Karlsruhe Institute of Technology
+  contributorName:
+    nameType: Organizational
+    value: KASCADE-Grande Collaboration
+  contributorType: ResearchGroup
+Creator:
+  creatorName:
+    nameType: Organizational
+    value: Institute for Astroparticle Physics, Karlsruhe Institute of Technology
+Date:
+  dateInformation: Data selection NABOO
+  dateType: Created
+  value: '2020-05-14'
+Description:
+- descriptionType: Abstract
+  value: Analysing data of the CALORIMETER and the KASCADE
+- descriptionType: Table of Contents
+  value: 'Data file names / sizes general.txt / 286 MB
+
+    array.txt / 242 MB
+
+    row_mapping.txt / 57 MB'
+- descriptionType: TechnicalInfo
+  value: "KASCADE quantities selected\nQuantity\tDescription\tRange\tCut\nE\tEstimated\
+    \ primary energy\t1013 -1019 eV\tfull range\nXc\tX-core position\t-91 - +91 m\t\
+    full range\nYc\tY-core position\t-91 - +91 m\tfull range\nZe\tZenith angle\t0\xB0\
+    \ - 60\xB0\tfull range\nAz\tAzimuth angle\t0\xB0 - 360\xB0\tfull range\nNe\tNumber\
+    \ of e/\uF067\uF020particles\t100 - 500,000,000\tfull range\nNmu\tNumber of Muons\t\
+    100 - 50,000,000\tfull range\nAge\tShower age\t0.1 \u2013 1.48\tfull range\n\n\
+    \nCALORIMETER quantities selected\nQuantity\tDescription\tRange\tCut\nNhad\tNumber\
+    \ of Hadrons\t1 \u2013 511\tcut\nEhad\tEnergy sum of Nhad Hadrons\t0, 1010 \u2013\
+    \ 1016 eV\tfull range\n\n\nGENERAL quantities selected\nQuantity\tDescription\t\
+    Range\tCut\nT\tAir temperature\t-20 \xB0 - +50\xB0\tfull range\nP\tAir pressure\t\
+    960 -1040 hPa\tfull range\nGt\tGlobal time (sec\u2019s since 1.1.1970)\t894,645,350\
+    \ \u2013\t1,134,213,640\ncut\tMt\tMicro time\t0 \u2013 999,999,999\nfull range\t\
+    DateTime Date & Time\t8.5.1998 \u2013\t12.10.2005\ncut\tR\tRun number\t877 - 5496\n\
+    cut\tEv\tEvent number\t1 \u2013 4,100,000\nfull range\t\tNote: only Events with\
+    \ reconstructed Calorimeter data (Nhad>0) are included\t"
+Format: ASCII
+Identifier:
+  identifierType: DOI
+  value: doi.org/10.17616/R3TS4P
+Language: en
+PublicationYear: 2020
+Publisher: KASCADE Cosmic Ray Data Centre (KCDC)
+ResourceType:
+  resourceTypeGeneral: Dataset
+  value: Reconstructed events
+Rights:
+  rightsURI: https://kcdc.iap.kit.edu/static/pdf/kcdc_mainpage/EULA.pdf
+  value: End User Licence Agreement for using the KCDC IAP webportal and the KCDC
+    data (EULA)
+Size: 542 kB
+Subject:
+  classificationCode: 678197d1-8bf1-4c16-86cc-8133fba03b86
+  schemeURI: https://physh.org/browse
+  subjectScheme: PhySH (Physics Subject Headings)
+  value: Cosmic rays & astroparticles
+  valueURI: https://physh.org/concepts/678197d1-8bf1-4c16-86cc-8133fba03b86
+Title:
+  titleType: Main Title
+  value: KASCADE-CALOR_ReducedData_runs_0877-5496_ASCII
+Version: NABOO

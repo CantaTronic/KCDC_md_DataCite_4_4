@@ -1,0 +1,96 @@
+Contributor:
+  affiliation:
+    SchemeURI: https://ror.org
+    affiliationIdentifier: https://ror.org/04t3en479
+    affiliationIdentifierScheme: ROR
+    value: Karlsruhe Institute of Technology
+  contributorName:
+    nameType: Organizational
+    value: KASCADE-Grande Collaboration
+  contributorType: ResearchGroup
+Creator:
+  creatorName:
+    nameType: Organizational
+    value: Institute for Astroparticle Physics, Karlsruhe Institute of Technology
+Date:
+  dateInformation: Data selection NABOO
+  dateType: Created
+  value: '2020-05-04'
+Description:
+- descriptionType: Abstract
+  value: Analyses with high energetic particles
+- descriptionType: Table of Contents
+  value: 'Data file names / sizes array.txt / 246.1 MB
+
+    calorimeter.txt / 8.6 MB
+
+    general.txt / 288.2 MB
+
+    grande.txt / 31.3 MB
+
+    lopes / 0.2 MB
+
+    row_mapping.txt / 57.3 MB'
+- descriptionType: TechnicalInfo
+  value: "KASCADE quantities selected\nQuantity\tDescription\tRange\tCut\nE\tEstimated\
+    \ primary energy\t1015.7 -1019 eV\tcut\nXc\tX-core position\t-91 - +91 m\tfull\
+    \ range\nYc\tY-core position\t-91 - +91 m\tfull range\nZe\tZenith angle\t0\xB0\
+    \ - 60\xB0\tfull range\nAz\tAzimuth angle\t0\xB0 - 360\xB0\tfull range\nNe\tNumber\
+    \ of e/\uF067\uF020particles\t100 - 500,000,000\tfull range\nNmu\tNumber of Muons\t\
+    100 - 50,000,000\tfull range\nAge\tShower age\t0.1 \u2013 1.48\tfull range\n\n\
+    \nCALORIMETER quantities selected\nQuantity\tDescription\tRange\tCut\nNhad\tNumber\
+    \ of Hadrons\t0 \u2013 511\tfull range\nEhad\tEnergy sum of Nhad Hadrons\t0, 1010\
+    \ \u2013 1016 eV\tfull range\n\nGRANDE quantities selected\nQuantity\tDescription\t\
+    Range\tCut\nXc\tX-core position Grande\t-500 - +100 m\tfull range\nYc\tY-core\
+    \ position Grande\t-600 - + 100 m\tfull range\nZe\tZenith angle Grande\t0\xB0\
+    \ - 40\xB0\tfull range\nAz\tAzimuth angle Grande\t0\xB0 - 360\xB0\tfull range\n\
+    Nch\tNumber of charged particles Grande 11111 -\t1,000,000,000\tfull range\nNmu\t\
+    Number of Muons Grande\t1500 - 100,000,000\tfull range\nAge\tShower age Grande\t\
+    -0.385 \u2013 +1.488\tfull range\n\n\nGENERAL quantities selected\nQuantity\t\
+    Description\tRange\tCut\nT\tAir temperature\t-20 \xB0 - +50\xB0\tfull range\n\
+    P\tAir pressure\t960 -1040 hPa\tfull range\nGt\tGlobal time (sec\u2019s since\
+    \ 1.1.1970)\t894,638,100 \u2013\t1,358,239,243\nfull range\tMt\tMicro time\t0\
+    \ \u2013 999,999,999\nfull range\tDateTime Date & Time\t8.5.1998\u201315.1.2013\t\
+    full range\nR\tRun number\t877 \u2013 7417\tfull range\nEv\tEvent number\t1 \u2013\
+    \ 4,100,000\tfull range\n\n\nLOPES quantities selected\nQuantity\tDescription\t\
+    Range\tCut\nEfieldAbyMax\tmaximum atmospheric electric\tfield\t0.0 \u2013\n50000.0\t\
+    full range\tAzL_EW _NS\tazimuth of LOPES CC beam;\nEW & NS\t0.0 \u2013 360.0\xB0\
+    \ full range\tElL_EW & _NS\televation of CC beam; EW &\nNS\t40 \u2013 90\xB0\t\
+    full range\tCCheight_EW & _NS\namplitude of CC beam; EW &\tNS\t0.0 - 20.0\t\xB5\
+    V/m/MHz\nfull range\tXheight_EW & _NS\tamplitude of X-beam; EW &\tNS\n0.0 - 20.0\t\
+    \u03BCV/m/MHz\tfull range\tconeAngle_EW & _NS\ncone angle of wavefront; EW\t&\
+    \ NS\t0.0 - 0.1 rad full range\tNCCbeanAntennas_EW\n& _NS\tnr of antennas contributing;\t\
+    EW & NS\t0 \u2013 30\nfull range\teta_EW & _NS\tslope parameter of LDF; EW &\t\
+    NS\n-0.04 - 0.11\t1/m\tfull range\teps_EW & _NS\namplitude parameter of LDF;\t\
+    EW & NS\t0.0 - 100.0\t\u03BCV/m/MHz\nfull range\trmsCCbeam_EW &\t_NS\tRMS of CC\
+    \ beam; EW & NS\n0.0 - 20.0\t\u03BCV/m/MHz\tfull range\tGeomagnetic_Angle\nangle\
+    \ between geomagnetic\tfield and KASCADE shower\taxis\t0.0 - 120.0\xB0\nfull range\t\
+    Geomagnetic_AngleG\tangle between geomagnetic\tfield and GRANDE shower\naxis\t\
+    0.0 - 120.0\xB0\tfull range\treconstruction\nLOPRES reconstruction done\twith\
+    \ \u2018A\u2019 or \u2018G\u2019\t65 or 71\tfull range\nLopesCompID\tLOPES identifier\t\
+    0 to 1\tcut\n"
+Format: ASCII
+Identifier:
+  identifierType: DOI
+  value: doi.org/10.17616/R3TS4P
+Language: en
+PublicationYear: 2020
+Publisher: KASCADE Cosmic Ray Data Centre (KCDC)
+ResourceType:
+  resourceTypeGeneral: Dataset
+  value: Reconstructed events
+Rights:
+  rightsURI: https://kcdc.iap.kit.edu/static/pdf/kcdc_mainpage/EULA.pdf
+  value: End User Licence Agreement for using the KCDC IAP webportal and the KCDC
+    data (EULA)
+Size: 542 kB
+Subject:
+  classificationCode: 678197d1-8bf1-4c16-86cc-8133fba03b86
+  schemeURI: https://physh.org/browse
+  subjectScheme: PhySH (Physics Subject Headings)
+  value: Cosmic rays & astroparticles
+  valueURI: https://physh.org/concepts/678197d1-8bf1-4c16-86cc-8133fba03b86
+Title:
+  titleType: Main Title
+  value: KASCADE_HighEnergyData_runs_0877-7417_ASCII
+Version: NABOO

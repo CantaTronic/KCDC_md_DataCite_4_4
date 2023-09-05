@@ -1,0 +1,187 @@
+[
+    {
+        "name": "KASCADE_HighEnergyData_runs_0877-7417_ROOT.md.json",
+        "path": "/experimental/KASCADE_HighEnergyData_runs_0877-7417_ROOT.md.json",
+        "description": "Events with a reconstructed primary energy above 1015.7 eV\nFile format: ROOT"
+    },
+    {
+        "name": "COMBINED-LOPES_runs_5534-6821_HDF5.md.json",
+        "path": "/experimental/COMBINED-LOPES_runs_5534-6821_HDF5.md.json",
+        "description": "COMBINED data sample where LOPES has reconstructed data;\nno data arrays\nFile format: HDF5"
+    },
+    {
+        "name": "KASCADE_SmallDataSample_wA_runs_0877-7417_ROOT.md.json",
+        "path": "/experimental/KASCADE_SmallDataSample_wA_runs_0877-7417_ROOT.md.json",
+        "description": "Data sample with every 400th event of the whole data set\nincluded are all detector components, except LPPES, with all data arrays\nFile format: ROOT"
+    },
+    {
+        "name": "KASCADE_SmallDataSample_nA_runs_0877-7417_ROOT.md.json",
+        "path": "/experimental/KASCADE_SmallDataSample_nA_runs_0877-7417_ROOT.md.json",
+        "description": "Data sample with every 400th event of the whole data set\nincluded are all detector components, except LOPES, no data arrays\nFile format: ROOT"
+    },
+    {
+        "name": "KASCADE-LOPES_runs_5534-6821_HDF5.md.json",
+        "path": "/experimental/KASCADE-LOPES_runs_5534-6821_HDF5.md.json",
+        "description": "Events where LOPES has reconstructed data\nFile format: HDF5"
+    },
+    {
+        "name": "COMBINED_SmallDataSample_wA_runs_4775-7039_HDF5.md.json",
+        "path": "/experimental/COMBINED_SmallDataSample_wA_runs_4775-7039_HDF5.md.json",
+        "description": "COMBINED data sample with every 40th event of the whole data set;\nincluded are COMBINED and LOPES, with all data arrays\nFile format: HDF5"
+    },
+    {
+        "name": "COMBINED_ReducedData_runs_4775-7039_ASCII.md.json",
+        "path": "/experimental/COMBINED_ReducedData_runs_4775-7039_ASCII.md.json",
+        "description": "all COMBINED quantities in the run range 4775-7039,\nno cuts applied, no data arrays\nFile format: ASCII"
+    },
+    {
+        "name": "COMBINED_SmallDataSample_nA_runs_4775-7039_HDF5.md.json",
+        "path": "/experimental/COMBINED_SmallDataSample_nA_runs_4775-7039_HDF5.md.json",
+        "description": "COMBINED data sample with every 40th event of the whole data set;\nincluded are COMBINED and LOPES;\nno data arrays\nFile format: HDF5"
+    },
+    {
+        "name": "KASCADE_ReducedData_runs_4685-7417_ROOT.md.json",
+        "path": "/experimental/KASCADE_ReducedData_runs_4685-7417_ROOT.md.json",
+        "description": "all KASCADE quantities in the run range 4685-7417,\nno cuts applied, no data arrays\nFile format: ROOT"
+    },
+    {
+        "name": "KASCADE_SmallDataSample_wA_runs_0877-7417_HDF5.md.json",
+        "path": "/experimental/KASCADE_SmallDataSample_wA_runs_0877-7417_HDF5.md.json",
+        "description": "Data sample with every 400th event of the whole data set\nincluded are all detector components, except LPPES, with all data arrays\nFile format: HDF5"
+    },
+    {
+        "name": "COMBINED_HighEnergyData_runs_4775-7039_ROOT.md.json",
+        "path": "/experimental/COMBINED_HighEnergyData_runs_4775-7039_ROOT.md.json",
+        "description": "COMBINED events with a reconstructed primary energy above 1015.7 eV\nFile format: ROOT"
+    },
+    {
+        "name": "KASCADE-CALOR_ReducedData_runs_0877-5496_ROOT.md.json",
+        "path": "/experimental/KASCADE-CALOR_ReducedData_runs_0877-5496_ROOT.md.json",
+        "description": "all CALORIMETER and KASCADE quantities in the run range 877-5496,\nno cuts applied, no data arrays\nFile format: ROOT"
+    },
+    {
+        "name": "KASCADE_ReducedData_runs_0877-4683_HDF5.md.json",
+        "path": "/experimental/KASCADE_ReducedData_runs_0877-4683_HDF5.md.json",
+        "description": "all KASCADE-Array quantities in the run range 877-4683,\nno cuts applied, no data arrays\nFull data sample from the first releases VULCAN and MERIDIAN\nFile format: HDF5"
+    },
+    {
+        "name": "KASCADE_SmallDataSample_nA_runs_0877-7417_ASCII.md.json",
+        "path": "/experimental/KASCADE_SmallDataSample_nA_runs_0877-7417_ASCII.md.json",
+        "description": "Data sample with every 400th event of the whole data set\nincluded are all detector components, except LOPES, no data arrays\nFile format: ASCII"
+    },
+    {
+        "name": "KASCADE_ReducedData_runs_4685-7417_ASCII.md.json",
+        "path": "/experimental/KASCADE_ReducedData_runs_4685-7417_ASCII.md.json",
+        "description": "all KASCADE quantities in the run range 4685-7417,\nno cuts applied, no data arrays\nFile format: ASCII"
+    },
+    {
+        "name": "COMBINED-LOPES_runs_5534-6821_ROOT.md.json",
+        "path": "/experimental/COMBINED-LOPES_runs_5534-6821_ROOT.md.json",
+        "description": "COMBINED data sample where LOPES has reconstructed data;\nno data arrays\nFile format: ROOT"
+    },
+    {
+        "name": "COMBINED_SmallDataSample_nA_runs_4775-7039_ASCII.md.json",
+        "path": "/experimental/COMBINED_SmallDataSample_nA_runs_4775-7039_ASCII.md.json",
+        "description": "COMBINED data sample with every 40th event of the whole data set;\nincluded are COMBINED and LOPES;\nno data arrays\nFile format: ASCII"
+    },
+    {
+        "name": "KASCADE_ReducedData_runs_0877-4683_ASCII.md.json",
+        "path": "/experimental/KASCADE_ReducedData_runs_0877-4683_ASCII.md.json",
+        "description": "all KASCADE-Array quantities in the run range 877-4683,\nno cuts applied, no data arrays\nFull data sample from the first releases VULCAN and MERIDIAN\nFile format: ASCII"
+    },
+    {
+        "name": "COMBINED_HighEnergyData_runs_4775-7039_HDF5.md.json",
+        "path": "/experimental/COMBINED_HighEnergyData_runs_4775-7039_HDF5.md.json",
+        "description": "COMBINED events with a reconstructed primary energy above 1015.7 eV\nFile format: HDF5"
+    },
+    {
+        "name": "KASCADE-CALOR_ReducedData_runs_0877-5496_HDF5.md.json",
+        "path": "/experimental/KASCADE-CALOR_ReducedData_runs_0877-5496_HDF5.md.json",
+        "description": "all CALORIMETER and KASCADE quantities in the run range 877-5496,\nno cuts applied, no data arrays\nFile format: HDF5"
+    },
+    {
+        "name": "COMBINED_SmallDataSample_nA_runs_4775-7039_ROOT.md.json",
+        "path": "/experimental/COMBINED_SmallDataSample_nA_runs_4775-7039_ROOT.md.json",
+        "description": "COMBINED data sample with every 40th event of the whole data set;\nincluded are COMBINED and LOPES;\nno data arrays\nFile format: ROOT"
+    },
+    {
+        "name": "KASCADE-LOPES_runs_5534-6821_ROOT.md.json",
+        "path": "/experimental/KASCADE-LOPES_runs_5534-6821_ROOT.md.json",
+        "description": "Events where LOPES has reconstructed data\nFile format: ROOT"
+    },
+    {
+        "name": "COMBINED_ReducedData_runs_4775-7039_ROOT.md.json",
+        "path": "/experimental/COMBINED_ReducedData_runs_4775-7039_ROOT.md.json",
+        "description": "all COMBINED quantities in the run range 4775-7039,\nno cuts applied, no data arrays\nFile format: ROOT"
+    },
+    {
+        "name": "KASCADE-GRANDE_ReducedData_runs_4775-7398_HDF5.md.json",
+        "path": "/experimental/KASCADE-GRANDE_ReducedData_runs_4775-7398_HDF5.md.json",
+        "description": "all GRANDE quantities in the run range 4775-7398,\nno cuts applied, no data arrays\nFile format: HDF5"
+    },
+    {
+        "name": "KASCADE-GRANDE_ReducedData_runs_4775-7398_ROOT.md.json",
+        "path": "/experimental/KASCADE-GRANDE_ReducedData_runs_4775-7398_ROOT.md.json",
+        "description": "all GRANDE quantities in the run range 4775-7398,\nno cuts applied, no data arrays\nFile format: ROOT"
+    },
+    {
+        "name": "COMBINED_HighEnergyData_runs_4775-7039_ASCII.md.json",
+        "path": "/experimental/COMBINED_HighEnergyData_runs_4775-7039_ASCII.md.json",
+        "description": "COMBINED events with a reconstructed primary energy above 1015.7 eV\nFile format: ASCII"
+    },
+    {
+        "name": "COMBINED_SmallDataSample_wA_runs_4775-7039_ROOT.md.json",
+        "path": "/experimental/COMBINED_SmallDataSample_wA_runs_4775-7039_ROOT.md.json",
+        "description": "COMBINED data sample with every 40th event of the whole data set;\nincluded are COMBINED and LOPES, with all data arrays\nFile format: ROOT"
+    },
+    {
+        "name": "KASCADE_HighEnergyData_runs_0877-7417_HDF5.md.json",
+        "path": "/experimental/KASCADE_HighEnergyData_runs_0877-7417_HDF5.md.json",
+        "description": "Events with a reconstructed primary energy above 1015.7 eV\nFile format: HDF5"
+    },
+    {
+        "name": "COMBINED-LOPES_runs_5534-6821_ASCII.md.json",
+        "path": "/experimental/COMBINED-LOPES_runs_5534-6821_ASCII.md.json",
+        "description": "COMBINED data sample where LOPES has reconstructed data;\nno data arrays\nFile format: ASCII"
+    },
+    {
+        "name": "KASCADE_ReducedData_runs_0877-4683_ROOT.md.json",
+        "path": "/experimental/KASCADE_ReducedData_runs_0877-4683_ROOT.md.json",
+        "description": "all KASCADE-Array quantities in the run range 877-4683,\nno cuts applied, no data arrays\nFull data sample from the first releases VULCAN and MERIDIAN\nFile format: ROOT"
+    },
+    {
+        "name": "KASCADE_ReducedData_runs_4685-7417_HDF5.md.json",
+        "path": "/experimental/KASCADE_ReducedData_runs_4685-7417_HDF5.md.json",
+        "description": "all KASCADE quantities in the run range 4685-7417,\nno cuts applied, no data arrays\nFile format: HDF5"
+    },
+    {
+        "name": "KASCADE_HighEnergyData_runs_0877-7417_ASCII.md.json",
+        "path": "/experimental/KASCADE_HighEnergyData_runs_0877-7417_ASCII.md.json",
+        "description": "Events with a reconstructed primary energy above 1015.7 eV\nFile format: ASCII"
+    },
+    {
+        "name": "KASCADE_SmallDataSample_nA_runs_0877-7417_HDF5.md.json",
+        "path": "/experimental/KASCADE_SmallDataSample_nA_runs_0877-7417_HDF5.md.json",
+        "description": "Data sample with every 400th event of the whole data set\nincluded are all detector components, except LOPES, no data arrays\nFile format: HDF5"
+    },
+    {
+        "name": "COMBINED_ReducedData_runs_4775-7039_HDF5.md.json",
+        "path": "/experimental/COMBINED_ReducedData_runs_4775-7039_HDF5.md.json",
+        "description": "all COMBINED quantities in the run range 4775-7039,\nno cuts applied, no data arrays\nFile format: HDF5"
+    },
+    {
+        "name": "KASCADE-LOPES_runs_5534-6821_ASCII.md.json",
+        "path": "/experimental/KASCADE-LOPES_runs_5534-6821_ASCII.md.json",
+        "description": "Events where LOPES has reconstructed data\nFile format: ASCII"
+    },
+    {
+        "name": "KASCADE-GRANDE_ReducedData_runs_4775-7398_ASCII.md.json",
+        "path": "/experimental/KASCADE-GRANDE_ReducedData_runs_4775-7398_ASCII.md.json",
+        "description": "all GRANDE quantities in the run range 4775-7398,\nno cuts applied, no data arrays\nFile format: ASCII"
+    },
+    {
+        "name": "KASCADE-CALOR_ReducedData_runs_0877-5496_ASCII.md.json",
+        "path": "/experimental/KASCADE-CALOR_ReducedData_runs_0877-5496_ASCII.md.json",
+        "description": "all CALORIMETER and KASCADE quantities in the run range 877-5496,\nno cuts applied, no data arrays\nFile format: ASCII"
+    }
+]

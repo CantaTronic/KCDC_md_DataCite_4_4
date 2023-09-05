@@ -1,0 +1,77 @@
+Contributor:
+  affiliation:
+    SchemeURI: https://ror.org
+    affiliationIdentifier: https://ror.org/04t3en479
+    affiliationIdentifierScheme: ROR
+    value: Karlsruhe Institute of Technology
+  contributorName:
+    nameType: Organizational
+    value: KASCADE-Grande Collaboration
+  contributorType: ResearchGroup
+Creator:
+  creatorName:
+    nameType: Organizational
+    value: Institute for Astroparticle Physics, Karlsruhe Institute of Technology
+Date:
+  dateInformation: Data selection comb_1
+  dateType: Created
+  value: '2020-04-17'
+Description:
+- descriptionType: Abstract
+  value: Analyses with high energetic particles
+- descriptionType: Table of Contents
+  value: Data file names / sizes events.h5 / 131 MB
+- descriptionType: TechnicalInfo
+  value: "KASCADE quantities selected\nQuantity\tDescription\tRange\tCut\nE\tEstimated\
+    \ primary energy\t1015.7 -1019 eV\tcut\nXc\tX-core position\t-500 - +91 m\tfull\
+    \ range\nYc\tY-core position\t-550 - +91 m\tfull range\nZe\tZenith angle\t0\xB0\
+    \ - 30\xB0\tfull range\nAz\tAzimuth angle\t0\xB0 - 360\xB0\tfull range\nNe*\t\
+    Number of e/\uF067\uF020particles\t1e3.2 / 1e4.8 \u2013 1.0e9\tfull range\nNmu\t\
+    Number of Muons\t1000 \u2013 1.9e9\tfull range\nAge\tShower age\t0.15 \u2013 1.48\t\
+    full range\nAge\tShower age\t0.1 \u2013 1.48\tfull range\n\t* for Ne the range\
+    \ depends on the reconstructed shower core position; see manual\t\n\nGENERAL quantities\
+    \ selected\nQuantity\tDescription\tRange\tCut\nT\tAir temperature\t-20 \xB0 -\
+    \ +50\xB0\tfull range\nP\tAir pressure\t960 -1040 hPa\tfull range\nGt\tGlobal\
+    \ time (sec\u2019s since 1.1.1970)\t1,078,737,917 \u2013\t1,288,855,193\nfull\
+    \ range\tMt\tMicro time\t0 \u2013 999,999,999\nfull range\tDateTime Date & Time\t\
+    8.3.2004 \u2013 4.11.2010\tfull range\nR\tRun number\t4775 - 7039\tfull range\n\
+    Ev\tEvent number\t1 \u2013 4,100,000\tfull range\nUUID\tUniversal Unique Identifier\t\
+    \tfull range\n\n\nLOPES quantities selected\nQuantity\tDescription\tRange\tCut\n\
+    EfieldMaxAbs\tmaximum atmospheric electric\tfield\t0 - 50,000 V/m\n\tAzimuth EW\
+    \ &\tNS\tazimuth of LOPES CC beam; EW\n& NS\t0 \u2013 360\xB0\t\tElevation\nEW\
+    \ & NS\televation of CC beam; EW & NS\t0 \u2013 360\xB0\t\nCC Height\tEW & NS\t\
+    amplitude of CC beam; EW & NS\t0 \u2013 20\n\xB5V/m/MHz\t\tXHeight\tEW & NS\n\
+    amplitude of X-beam; EW & NS\t0 \u2013 20\t\xB5V/m/MHz\t\nConeAngle\tEW & NS\t\
+    cone angle of wavefront; EW &\tNS\n0 \u2013 0,1 rad\t\tNCCBeanAnt\tEW & NS\nnr\
+    \ of antennas contributing; EW &\tNS\t0 \u2013 30\t\nEta\tEW & NS\tslope parameter\
+    \ of LDF; EW &\tNS\n-0.04 - 0.11 /m\t\tEps\tEW & NS\nampl parameter of LDF; EW\
+    \ & NS -0.04 - 0.11\t\xB5V/m/MHz\t\tGeomag_Angle\nangle between geomagnetic field\t\
+    and KASCADE shower axis\t0 \u2013 120 \xB0\t\nGeomag_AngleG angle between geomagnetic\
+    \ field\tand GRANDE shower axis\t0 \u2013 120 \xB0\t\nReconstruction\tangle between\
+    \ geomagnetic field\tand GRANDE shower axis\t65 or 71\n\tLOPES Comp ID LOPES identifier\t\
+    0 or 1\t"
+Format: HDF5
+Identifier:
+  identifierType: DOI
+  value: doi.org/10.17616/R3TS4P
+Language: en
+PublicationYear: 2020
+Publisher: KASCADE Cosmic Ray Data Centre (KCDC)
+ResourceType:
+  resourceTypeGeneral: Dataset
+  value: Reconstructed events
+Rights:
+  rightsURI: https://kcdc.iap.kit.edu/static/pdf/kcdc_mainpage/EULA.pdf
+  value: End User Licence Agreement for using the KCDC IAP webportal and the KCDC
+    data (EULA)
+Size: 542 kB
+Subject:
+  classificationCode: 678197d1-8bf1-4c16-86cc-8133fba03b86
+  schemeURI: https://physh.org/browse
+  subjectScheme: PhySH (Physics Subject Headings)
+  value: Cosmic rays & astroparticles
+  valueURI: https://physh.org/concepts/678197d1-8bf1-4c16-86cc-8133fba03b86
+Title:
+  titleType: Main Title
+  value: COMBINED_HighEnergyData_runs_4775-7039_HDF5
+Version: comb_1

@@ -1,0 +1,610 @@
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+
+<html lang="en">
+
+  <!-- last update 21.12.2022 -->
+<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title> DataShop </title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1" />
+
+
+    <link rel="stylesheet" type="text/css" href="/static/css/kaos_mainmenu/KAOSMenu.css" > <link rel="stylesheet" type="text/css" href="/static/css/kaos_datashop/KAOSDataShop.css" > <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css" > <link rel="stylesheet" type="text/css" href="/static/css/kcdc_base/kcdcBase.css" > <link rel="stylesheet" type="text/css" href="/static/css/kcdc_base/kcdcHeader.css" > <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js" ></script> <script type="text/javascript" src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js" ></script> <script type="text/javascript" src="/static/js/kaos_mainmenu/KAOSMainMenu.js" ></script> <script type="text/javascript" src="/static/js/kaos_mainmenu/KAOSHeadMenu.js" ></script> <script type="text/javascript" src="/static/js/kaos_datashop/KAOSDataShop.js" ></script>
+
+</head>
+
+<body>
+
+    <!-- <div id="kcdcWrapper"> -->
+
+<script>
+function getStylesheet() {
+      var hostName = location.hostname.split(".")[0];
+      //var hostName = "kcdc-stage";
+      if (hostName == "kcdc-dev") {
+       document.write("<div id='kcdcWrapper' style='box-shadow: 0 0 30px 4px #00f'>"); // blau
+      }
+      else if (hostName == "kcdc-stage") {
+       document.write("<div id='kcdcWrapper' style='box-shadow: 0 0 30px 4px #f00'>"); // rot
+      }
+      else {
+       document.write("<div id='kcdcWrapper'>");
+      }
+}
+getStylesheet();
+</script>
+
+        <div id="kcdcHeadContainer">
+
+
+
+<div id="kcdcLogoContainer">
+    <div id="kcdcLogo">
+        <a target="_blank" href="http://www.kit.edu"
+            title="KIT-Logo - Link to KIT Homepage">
+            <img src="/static/img/main/KIT_Logo.png" >
+        </a>
+    </div>
+</div>
+<div id="kcdcHead">
+     <div id="kcdcMetanavigation">
+
+        <div id="head_menu_root">
+
+</div>
+
+<script type="text/javascript">
+$( document ).ready( kaos_flat_head_menu_funcs.set_items(JSON.parse( '[{\u0022url\u0022: \u0022https://kcdc.iap.kit.edu/\u0022, \u0022label\u0022: \u0022head_root\u0022, \u0022sub_nodes\u0022: [{\u0022label\u0022: \u0022[[ vt_kcdc ]]          \u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/accounts/profile\u0022, \u0022prepend_spacer\u0022: false, \u0022is_container\u0022: false, \u0022options\u0022: {\u0022class\u0022: \u0022kcdcMetaUser\u0022}, \u0022sub_nodes\u0022: []}, {\u0022label\u0022: \u0022KIT\u0022, \u0022url\u0022: \u0022https://www.kit.edu\u0022, \u0022prepend_spacer\u0022: true, \u0022is_container\u0022: false, \u0022options\u0022: {\u0022target\u0022: \u0022\u005C\u0022_blank\u005C\u0022\u0022}, \u0022sub_nodes\u0022: []}, {\u0022label\u0022: \u0022IAP\u0022, \u0022url\u0022: \u0022https://www.iap.kit.edu\u0022, \u0022prepend_spacer\u0022: false, \u0022is_container\u0022: false, \u0022options\u0022: {\u0022target\u0022: \u0022\u005C\u0022_blank\u005C\u0022\u0022}, \u0022sub_nodes\u0022: []}, {\u0022label\u0022: \u0022HOME\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/\u0022, \u0022prepend_spacer\u0022: false, \u0022is_container\u0022: false, \u0022options\u0022: {}, \u0022sub_nodes\u0022: []}, {\u0022label\u0022: \u0022Data Privacy\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/dataprivacy\u0022, \u0022prepend_spacer\u0022: false, \u0022is_container\u0022: false, \u0022options\u0022: {}, \u0022sub_nodes\u0022: []}, {\u0022label\u0022: \u0022Impressum\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/impressum\u0022, \u0022prepend_spacer\u0022: false, \u0022is_container\u0022: false, \u0022options\u0022: {}, \u0022sub_nodes\u0022: []}, {\u0022label\u0022: \u0022admin\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/admin\u0022, \u0022prepend_spacer\u0022: false, \u0022is_container\u0022: false, \u0022options\u0022: {}, \u0022sub_nodes\u0022: []}, {\u0022label\u0022: \u0022logout\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/accounts/logout\u0022, \u0022prepend_spacer\u0022: false, \u0022is_container\u0022: false, \u0022options\u0022: {}, \u0022sub_nodes\u0022: []}]}]' )) );
+$( document ).ready( kaos_flat_head_menu_funcs.create_menu($("#head_menu_root")) );
+</script>
+
+
+    </div>
+
+    <div id="kcdcHeadBanner"
+        style="background-image:url('/static/img/kcdc_base/KCDC_Banner.png')">
+        <div id="kcdcHeadText" class="kcdcBigFont">
+            <a href="/">KASCADE Cosmic Ray Data Centre (KCDC)</a> <i><font color="#666666"> / Open &beta; </font></i>
+        </div>
+        <div id="kcdcKCDCLogo"><img src="/static/img/kcdc_base/KCDC_Logo.png" class=kcdcKCDCLogoImg>
+        </div>
+    </div>
+</div>
+<div id="kcdcSpacerHead"></div>
+
+        </div>
+
+        <div id="kcdcMenubarContainer">
+            <div id="main_menu_root">
+
+</div>
+
+<script type="text/javascript">
+$( document ).ready( kaos_main_menu_funcs.set_items(JSON.parse( '[{\u0022url\u0022: \u0022https://kcdc.iap.kit.edu/\u0022, \u0022label\u0022: \u0022root\u0022, \u0022sub_nodes\u0022: [{\u0022label\u0022: \u0022KCDC Homepage\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/\u0022, \u0022prepend_spacer\u0022: false, \u0022is_container\u0022: false, \u0022options\u0022: {}, \u0022sub_nodes\u0022: []}, {\u0022label\u0022: \u0022KCDC Motivation\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/motivation\u0022, \u0022prepend_spacer\u0022: false, \u0022is_container\u0022: false, \u0022options\u0022: {}, \u0022sub_nodes\u0022: []}, {\u0022label\u0022: \u0022KCDC Regulations\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/lawnorder\u0022, \u0022prepend_spacer\u0022: false, \u0022is_container\u0022: false, \u0022options\u0022: {}, \u0022sub_nodes\u0022: []}, {\u0022label\u0022: \u0022Information\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/information\u0022, \u0022prepend_spacer\u0022: true, \u0022is_container\u0022: true, \u0022options\u0022: {}, \u0022sub_nodes\u0022: [{\u0022label\u0022: \u0022Data Format\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/information/dataFormat\u0022, \u0022prepend_spacer\u0022: false, \u0022is_container\u0022: false, \u0022options\u0022: {}, \u0022sub_nodes\u0022: []}, {\u0022label\u0022: \u0022About KASCADE\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/information/aboutKASCADE\u0022, \u0022prepend_spacer\u0022: false, \u0022is_container\u0022: false, \u0022options\u0022: {}, \u0022sub_nodes\u0022: []}, {\u0022label\u0022: \u0022About Maket\u002DAni\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/information/aboutMaketAni\u0022, \u0022prepend_spacer\u0022: false, \u0022is_container\u0022: false, \u0022options\u0022: {}, \u0022sub_nodes\u0022: []}, {\u0022label\u0022: \u0022About KCDC\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/information/aboutKCDC\u0022, \u0022prepend_spacer\u0022: false, \u0022is_container\u0022: false, \u0022options\u0022: {}, \u0022sub_nodes\u0022: []}, {\u0022label\u0022: \u0022KCDC Team\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/information/kcdcTeam\u0022, \u0022prepend_spacer\u0022: false, \u0022is_container\u0022: false, \u0022options\u0022: {}, \u0022sub_nodes\u0022: []}]}, {\u0022label\u0022: \u0022Announcements\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/announcements\u0022, \u0022prepend_spacer\u0022: false, \u0022is_container\u0022: true, \u0022options\u0022: {}, \u0022sub_nodes\u0022: [{\u0022label\u0022: \u0022Developer News\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/announcements/developerNews\u0022, \u0022prepend_spacer\u0022: false, \u0022is_container\u0022: false, \u0022options\u0022: {}, \u0022sub_nodes\u0022: []}, {\u0022label\u0022: \u0022Changelogs\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/announcements/changeLogs\u0022, \u0022prepend_spacer\u0022: false, \u0022is_container\u0022: false, \u0022options\u0022: {}, \u0022sub_nodes\u0022: []}]}, {\u0022label\u0022: \u0022FAQs\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/faq\u0022, \u0022prepend_spacer\u0022: false, \u0022is_container\u0022: false, \u0022options\u0022: {}, \u0022sub_nodes\u0022: []}, {\u0022label\u0022: \u0022User Account\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/accounts\u0022, \u0022prepend_spacer\u0022: true, \u0022is_container\u0022: true, \u0022options\u0022: {}, \u0022sub_nodes\u0022: [{\u0022label\u0022: \u0022Logout\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/accounts/logout\u0022, \u0022prepend_spacer\u0022: false, \u0022is_container\u0022: false, \u0022options\u0022: {}, \u0022sub_nodes\u0022: []}, {\u0022label\u0022: \u0022User Profile\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/accounts/profile\u0022, \u0022prepend_spacer\u0022: false, \u0022is_container\u0022: false, \u0022options\u0022: {}, \u0022sub_nodes\u0022: []}, {\u0022label\u0022: \u0022Change Password\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/accounts/change_pw\u0022, \u0022prepend_spacer\u0022: false, \u0022is_container\u0022: false, \u0022options\u0022: {}, \u0022sub_nodes\u0022: []}, {\u0022label\u0022: \u0022Close Account\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/accounts/close\u0022, \u0022prepend_spacer\u0022: false, \u0022is_container\u0022: false, \u0022options\u0022: {}, \u0022sub_nodes\u0022: []}]}, {\u0022label\u0022: \u0022Data Shops\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/datashop\u0022, \u0022prepend_spacer\u0022: true, \u0022is_container\u0022: true, \u0022options\u0022: {}, \u0022sub_nodes\u0022: [{\u0022label\u0022: \u0022KASCADE\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/datashop\u0022, \u0022prepend_spacer\u0022: false, \u0022is_container\u0022: false, \u0022options\u0022: {}, \u0022sub_nodes\u0022: []}, {\u0022label\u0022: \u0022COMBINED\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/datashop/combined\u0022, \u0022prepend_spacer\u0022: false, \u0022is_container\u0022: false, \u0022options\u0022: {}, \u0022sub_nodes\u0022: []}, {\u0022label\u0022: \u0022Maket\u002DAni\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/datashop/ani\u0022, \u0022prepend_spacer\u0022: false, \u0022is_container\u0022: false, \u0022options\u0022: {}, \u0022sub_nodes\u0022: []}, {\u0022label\u0022: \u0022Review Requests\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/datashop/review\u0022, \u0022prepend_spacer\u0022: true, \u0022is_container\u0022: false, \u0022options\u0022: {}, \u0022sub_nodes\u0022: []}, {\u0022label\u0022: \u0022Preselections\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/datashop/fulldata\u0022, \u0022prepend_spacer\u0022: false, \u0022is_container\u0022: false, \u0022options\u0022: {}, \u0022sub_nodes\u0022: []}]}, {\u0022label\u0022: \u0022Simulations\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/simul\u0022, \u0022prepend_spacer\u0022: false, \u0022is_container\u0022: true, \u0022options\u0022: {}, \u0022sub_nodes\u0022: [{\u0022label\u0022: \u0022General Info\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/simul/simgeneral\u0022, \u0022prepend_spacer\u0022: false, \u0022is_container\u0022: false, \u0022options\u0022: {}, \u0022sub_nodes\u0022: []}, {\u0022label\u0022: \u0022KASCADE Simul\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/simul/simkas\u0022, \u0022prepend_spacer\u0022: true, \u0022is_container\u0022: false, \u0022options\u0022: {}, \u0022sub_nodes\u0022: []}, {\u0022label\u0022: \u0022COMBINED Simul\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/simul/simcomb\u0022, \u0022prepend_spacer\u0022: false, \u0022is_container\u0022: false, \u0022options\u0022: {}, \u0022sub_nodes\u0022: []}]}, {\u0022label\u0022: \u0022Analyses\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/analyses\u0022, \u0022prepend_spacer\u0022: false, \u0022is_container\u0022: true, \u0022options\u0022: {}, \u0022sub_nodes\u0022: [{\u0022label\u0022: \u0022Jupyterhub\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/analyses/jupyterhub\u0022, \u0022prepend_spacer\u0022: false, \u0022is_container\u0022: false, \u0022options\u0022: {}, \u0022sub_nodes\u0022: []}]}, {\u0022label\u0022: \u0022Spectra\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/spectra\u0022, \u0022prepend_spacer\u0022: true, \u0022is_container\u0022: false, \u0022options\u0022: {}, \u0022sub_nodes\u0022: []}, {\u0022label\u0022: \u0022Event Display\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/events\u0022, \u0022prepend_spacer\u0022: false, \u0022is_container\u0022: false, \u0022options\u0022: {}, \u0022sub_nodes\u0022: []}, {\u0022label\u0022: \u0022Materials\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/materials\u0022, \u0022prepend_spacer\u0022: true, \u0022is_container\u0022: false, \u0022options\u0022: {}, \u0022sub_nodes\u0022: []}, {\u0022label\u0022: \u0022Publications\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/papers\u0022, \u0022prepend_spacer\u0022: false, \u0022is_container\u0022: true, \u0022options\u0022: {}, \u0022sub_nodes\u0022: [{\u0022label\u0022: \u0022KCDC Publications\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/papers\u0022, \u0022prepend_spacer\u0022: false, \u0022is_container\u0022: false, \u0022options\u0022: {}, \u0022sub_nodes\u0022: []}, {\u0022label\u0022: \u0022KCDC Based\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/papers/kcdcbased\u0022, \u0022prepend_spacer\u0022: false, \u0022is_container\u0022: false, \u0022options\u0022: {}, \u0022sub_nodes\u0022: []}, {\u0022label\u0022: \u0022KCDC Related\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/papers/kcdcrelated\u0022, \u0022prepend_spacer\u0022: false, \u0022is_container\u0022: false, \u0022options\u0022: {}, \u0022sub_nodes\u0022: []}]}, {\u0022label\u0022: \u0022Report a Bug\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/bugreport\u0022, \u0022prepend_spacer\u0022: true, \u0022is_container\u0022: true, \u0022options\u0022: {}, \u0022sub_nodes\u0022: [{\u0022label\u0022: \u0022Send a Bug Repoprt\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/bugreport\u0022, \u0022prepend_spacer\u0022: false, \u0022is_container\u0022: false, \u0022options\u0022: {}, \u0022sub_nodes\u0022: []}, {\u0022label\u0022: \u0022List reported Bugs\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/bugreport/list\u0022, \u0022prepend_spacer\u0022: false, \u0022is_container\u0022: false, \u0022options\u0022: {}, \u0022sub_nodes\u0022: []}]}, {\u0022label\u0022: \u0022Education/Lehre\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/edu\u0022, \u0022prepend_spacer\u0022: true, \u0022is_container\u0022: true, \u0022options\u0022: {}, \u0022sub_nodes\u0022: [{\u0022label\u0022: \u0022Examples\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/edu/examples_en\u0022, \u0022prepend_spacer\u0022: false, \u0022is_container\u0022: false, \u0022options\u0022: {}, \u0022sub_nodes\u0022: []}]}, {\u0022label\u0022: \u0022KCDC Partners\u0022, \u0022url\u0022: \u0022https://kcdc.iap.kit.edu/partners\u0022, \u0022prepend_spacer\u0022: true, \u0022is_container\u0022: false, \u0022options\u0022: {}, \u0022sub_nodes\u0022: []}]}]' )) );
+$( document ).ready( kaos_main_menu_funcs.create_menu($("#main_menu_root")) );
+</script>
+
+        </div>
+
+        <div id="kcdcContentAreaContainer">
+
+
+
+<!-- last changes 7.6.2021  by JW -->
+
+<div id="messages" class="kaosShopMessageBox"></div>
+
+<div id="kaosContentArea">
+    <div id="kaosDataShopAreaHead">Data Preselections from 'KASCADE' and 'COMBINED' </div>
+    <div id="kaosDataShopArea"><br>
+      <div class="kaosPreselectionsIndexBox">
+	<div class="kaosPreselectionsIndex">
+          <div>
+            <ul>
+              <li>
+		<a href="#kascade"> Data Preselections from the 'KASCADE'  DataShop </a>
+              </li>
+              <li>
+		<a href="#combined"> Data Preselections from the 'COMBINED' DataShop </a>
+              </li>
+	    </ul>
+	  </div>
+	</div>
+      </div>
+
+<!--  List of KASCADE / KASCADE-Grande Data Preselections -->
+      <div class="kaosPreselectionsAreaBox">
+	<div class="kaosPreselectionsAreaBoxHead">
+	  <a name="kascade">Data Preselections from 'KASCADE'</a>
+	</div>
+	<div class="kaosPreselectionsHeadSpacer"> &nbsp;</div>
+
+ 	<table border frames=void rules=none class="kaosPreselectionsTableHeader">
+          <colgroup>
+            <col width=375 >
+            <col width= 68 >
+            <col width= 68 >
+            <col width= 68 >
+          </colgroup>
+
+	  <tr style="margin-left:10px;">
+	    <td style="text-align:left; padding-left:10px; font-size:14px"> <b>Data sets</b></td>
+	    <td colspan=3 align=center style="border-left:2px solid #e5e5e5;  font-size:14px"> <b>Download Info</b></td>
+	  </tr>
+	  <tr style="height:15px">
+	    <td> </td>
+	    <td style="border-left:2px solid #e5e5e5"> <b>ASCII</b></td>
+	    <td style="border-left:2px solid #e5e5e5"> <b>ROOT</b></td>
+	    <td style="border-left:2px solid #e5e5e5"> <b>HDF5</b></td>
+	  </tr>
+	</table>
+	<div class="kaosPreselectionsTableSpacer"> &nbsp;</div>
+
+ 	<table border frames=void rules=none class="kaosPreselectionsTable">
+         <colgroup>
+            <col width=357>
+            <col width= 68 >
+            <col width= 68 >
+            <col width= 68 >
+         </colgroup>
+
+          <tr>
+            <td valign=top><b> KASCADE_ReducedData_runs_0877-4683_xxx</b><br><br>
+	      all KASCADE-Array quantities in the run range 877-4683, <br>
+	      no cuts applied, no data arrays<br>
+	      <b><font color="#ff0000">Full data sample from the first releases VULCAN and MERIDIAN</font></b>
+	    </td>
+	    <td valign=top  class="kaosPreselectionsTableData"><b>
+		<a href=https://kcdc.iap.kit.edu/Preselections/KASCADE_ReducedData_runs_0877-4683_ASCII.zip>
+		  <img class="kcdcPreselectionsDownlImg" src="/static/img/kcdc_mainpage/downloadPresel.png"> </a>
+		</b><br><br>7.3 GB<br>
+	      <b><a  target="_blank" href="/static/pdf/kaos_datashop/KASCADE_ReducedData_runs_0877-4683_ASCII.pdf">details</a></b>
+	    </td>
+	    <td valign=top  class="kaosPreselectionsTableData" ><b>
+		<a href=https://kcdc.iap.kit.edu/Preselections/KASCADE_ReducedData_runs_0877-4683_ROOT.zip>
+		  <img class="kcdcPreselectionsDownlImg" src="/static/img/kcdc_mainpage/downloadPresel.png"> </a>
+		</b><br><br> 7.1 GB<br>
+	      <b><a target="_blank" href="/static/pdf/kaos_datashop/KASCADE_ReducedData_runs_0877-4683_ROOT.pdf">details</a></b>
+	    </td>
+	    <td valign=top  class="kaosPreselectionsTableData"><b>
+		<a href=https://kcdc.iap.kit.edu/Preselections/KASCADE_ReducedData_runs_0877-4683_HDF5.zip>
+		  <img class="kcdcPreselectionsDownlImg" src="/static/img/kcdc_mainpage/downloadPresel.png"> </a>
+		</b><br><br>6.2 GB<br>
+	      <b><a target="_blank" href="/static/pdf/kaos_datashop/KASCADE_ReducedData_runs_0877-4683_HDF5.pdf">details</a></b>
+	    </td>
+          </tr>
+          <tr>
+            <td valign=top><b> KASCADE_ReducedData_runs_4685-7417_xxx</b><br><br>
+	      all KASCADE quantities in the run range 4685-7417, <br>
+	      no cuts applied, no data arrays
+	    </td>
+	    <td valign=top  class="kaosPreselectionsTableData"><b>
+		<a href=https://kcdc.iap.kit.edu/Preselections/KASCADE_ReducedData_runs_4685-7417_ASCII.zip>
+		  <img class="kcdcPreselectionsDownlImg" src="/static/img/kcdc_mainpage/downloadPresel.png"> </a>
+		</b><br><br>13.0 GB<br>
+	      <b><a  target="_blank" href="/static/pdf/kaos_datashop/KASCADE_ReducedData_runs_4685-7417_ASCII.pdf">details</a></b>
+	    </td>
+	    <td valign=top  class="kaosPreselectionsTableData" ><b>
+		<a href=https://kcdc.iap.kit.edu/Preselections/KASCADE_ReducedData_runs_4685-7417_ROOT.zip>
+		  <img class="kcdcPreselectionsDownlImg" src="/static/img/kcdc_mainpage/downloadPresel.png"> </a>
+		</b><br><br> 13.0 GB<br>
+	      <b><a target="_blank" href="/static/pdf/kaos_datashop/KASCADE_ReducedData_runs_4685-7417_ROOT.pdf">details</a></b>
+	    </td>
+	    <td valign=top  class="kaosPreselectionsTableData"><b>
+		<a href=https://kcdc.iap.kit.edu/Preselections/KASCADE_ReducedData_runs_4685-7417_HDF5.zip>
+		  <img class="kcdcPreselectionsDownlImg" src="/static/img/kcdc_mainpage/downloadPresel.png"> </a>
+		</b><br><br>1 GB<br>
+	      <b><a target="_blank" href="/static/pdf/kaos_datashop/KASCADE_ReducedData_runs_4685-7417_HDF5.pdf">details</a></b>
+	    </td>
+          </tr>
+
+          <tr>
+            <td valign=top><b> KASCADE-GRANDE_ReducedData_runs_4775-7398_xxx</b><br><br>
+	      all GRANDE quantities in the run range 4775-7398,<br>
+	      no cuts applied, no data arrays
+	    </td>
+	    <td valign=top  class="kaosPreselectionsTableData"><b>
+		<a href=https://kcdc.iap.kit.edu/Preselections/KASCADE-GRANDE_ReducedData_runs_4775-7398_ASCII.zip>
+		  <img class="kcdcPreselectionsDownlImg" src="/static/img/kcdc_mainpage/downloadPresel.png"> </a>
+		</b><br><br>3.0 GB<br>
+	      <b><a  target="_blank" href="/static/pdf/kaos_datashop/KASCADE-GRANDE_ReducedData_runs_4775-7398_ASCII.pdf">details</a></b>
+	    </td>
+	    <td valign=top  class="kaosPreselectionsTableData" ><b>
+		<a href=https://kcdc.iap.kit.edu/Preselections/KASCADE-GRANDE_ReducedData_runs_4775-7398_ROOT.zip>
+		  <img class="kcdcPreselectionsDownlImg" src="/static/img/kcdc_mainpage/downloadPresel.png"> </a>
+		</b><br><br> 2.8 GB<br>
+	      <b><a target="_blank" href="/static/pdf/kaos_datashop/KASCADE-GRANDE_ReducedData_runs_4775-7398_ROOT.pdf">details</a></b>
+	    </td>
+	    <td valign=top  class="kaosPreselectionsTableData"><b>
+		<a href=https://kcdc.iap.kit.edu/Preselections/KASCADE-GRANDE_ReducedData_runs_4775-7398_HDF5.zip>
+		  <img class="kcdcPreselectionsDownlImg" src="/static/img/kcdc_mainpage/downloadPresel.png"> </a>
+		</b><br><br>2.5 GB<br>
+	      <b><a target="_blank" href="/static/pdf/kaos_datashop/KASCADE-GRANDE_ReducedData_runs_4775-7398_HDF5.pdf">details</a></b>
+	    </td>
+          </tr>
+
+          <tr>
+            <td valign=top><b> KASCADE-CALOR_ReducedData_runs_0877-5496_xxx</b><br><br>
+	      all CALORIMETER and KASCADE quantities in the run range 877-5496, <br>
+	      no cuts applied, no data arrays
+	    </td>
+	    <td valign=top  class="kaosPreselectionsTableData"><b>
+		<a href=https://kcdc.iap.kit.edu/Preselections/KASCADE-CALOR_ReducedData_runs_0877-5496_ASCII.zip>
+		  <img class="kcdcPreselectionsDownlImg" src="/static/img/kcdc_mainpage/downloadPresel.png"> </a>
+		</b><br><br>214 MB<br>
+	      <b><a  target="_blank" href="/static/pdf/kaos_datashop/KASCADE-CALOR_ReducedData_runs_0877-5496_ASCII.pdf">details</a></b>
+	    </td>
+	    <td valign=top  class="kaosPreselectionsTableData" ><b>
+		<a href=https://kcdc.iap.kit.edu/Preselections/KASCADE-CALOR_ReducedData_runs_0877-5496_ROOT.zip>
+		  <img class="kcdcPreselectionsDownlImg" src="/static/img/kcdc_mainpage/downloadPresel.png"> </a>
+		</b><br><br> 209 MB<br>
+	      <b><a target="_blank" href="/static/pdf/kaos_datashop/KASCADE-CALOR_ReducedData_runs_0877-5496_ROOT.pdf">details</a></b>
+	    </td>
+	    <td valign=top  class="kaosPreselectionsTableData"><b>
+		<a href=https://kcdc.iap.kit.edu/Preselections/KASCADE-CALOR_ReducedData_runs_0877-5496_HDF5.zip>
+		  <img class="kcdcPreselectionsDownlImg" src="/static/img/kcdc_mainpage/downloadPresel.png"> </a>
+		</b><br><br>181 MB<br>
+	      <b><a target="_blank" href="/static/pdf/kaos_datashop/KASCADE-CALOR_ReducedData_runs_0877-5496_HDF5.pdf">details</a></b>
+	    </td>
+         </tr>
+
+         <tr>
+            <td valign=top><b>KASCADE_HighEnergyData_runs_0877-7417_xxx</b><br><br>
+	      Events with a reconstructed primary energy above 10<sup>15.7</sup> eV
+	    </td>
+	    <td valign=top  class="kaosPreselectionsTableData"><b>
+		<a href=https://kcdc.iap.kit.edu/Preselections/KASCADE_HighEnergyData_runs_0877-7417_ASCII.zip>
+		  <img class="kcdcPreselectionsDownlImg" src="/static/img/kcdc_mainpage/downloadPresel.png"> </a>
+		</b><br><br>244 MB<br>
+	      <b><a  target="_blank" href="/static/pdf/kaos_datashop/KASCADE_HighEnergyData_runs_0877-7417_ASCII.pdf">details</a></b>
+	    </td>
+	    <td valign=top  class="kaosPreselectionsTableData" ><b>
+		<a href=https://kcdc.iap.kit.edu/Preselections/KASCADE_HighEnergyData_runs_0877-7417_ROOT.zip>
+		  <img class="kcdcPreselectionsDownlImg" src="/static/img/kcdc_mainpage/downloadPresel.png"> </a>
+		</b><br><br> 236 MB<br>
+	      <b><a target="_blank" href="/static/pdf/kaos_datashop/KASCADE_HighEnergyData_runs_0877-7417_ROOT.pdf">details</a></b>
+	    </td>
+	    <td valign=top  class="kaosPreselectionsTableData"><b>
+		<a href=https://kcdc.iap.kit.edu/Preselections/KASCADE_HighEnergyData_runs_0877-7417_HDF5.zip>
+		  <img class="kcdcPreselectionsDownlImg" src="/static/img/kcdc_mainpage/downloadPresel.png"> </a>
+		</b><br><br>210 MB<br>
+	      <b><a target="_blank" href="/static/pdf/kaos_datashop/KASCADE_HighEnergyData_runs_0877-7417_HDF5.pdf">details</a></b>
+	    </td>
+         </tr>
+
+         <tr>
+            <td valign=top><b> KASCADE-LOPES_runs_5534-6821_xxx</b><br><br>
+	      Events where LOPES has reconstructed data<br>
+	    </td>
+	    <td valign=top  class="kaosPreselectionsTableData"><b>
+		<a href=https://kcdc.iap.kit.edu/Preselections/KASCADE-LOPES_runs_5534-6821_ASCII.zip>
+		  <img class="kcdcPreselectionsDownlImg" src="/static/img/kcdc_mainpage/downloadPresel.png"> </a>
+		</b><br><br>542 kB<br>
+	      <b><a  target="_blank" href="/static/pdf/kaos_datashop/KASCADE-LOPES_runs_5534-6821_ASCII.pdf">details</a></b>
+	    </td>
+	    <td valign=top  class="kaosPreselectionsTableData" ><b>
+		<a href=https://kcdc.iap.kit.edu/Preselections/KASCADE-LOPES_runs_5534-6821_ROOT.zip>
+		  <img class="kcdcPreselectionsDownlImg" src="/static/img/kcdc_mainpage/downloadPresel.png"> </a>
+		</b><br><br> 686 kB<br>
+	      <b><a target="_blank" href="/static/pdf/kaos_datashop/KASCADE-LOPES_runs_5534-6821_ROOT.pdf">details</a></b>
+	    </td>
+	    <td valign=top  class="kaosPreselectionsTableData"><b>
+		<a href=https://kcdc.iap.kit.edu/Preselections/KASCADE-LOPES_runs_5534-6821_HDF5.zip>
+		  <img class="kcdcPreselectionsDownlImg" src="/static/img/kcdc_mainpage/downloadPresel.png"> </a>
+		</b><br><br>641 kB<br>
+	      <b><a target="_blank" href="/static/pdf/kaos_datashop/KASCADE-LOPES_runs_5534-6821_HDF5.pdf">details</a></b>
+	    </td>
+         </tr>
+
+         <tr>
+           <td valign=top><b> KASCADE_SmallDataSample_nA_runs_0877-7417_xxx</b><br><br>
+	      Data sample with every 400<sup>th</sup> event of the whole data set <br>
+	      included are all detector components, except LOPES,<br> <b>no data arrays</b>
+	    </td>
+	    <td valign=top  class="kaosPreselectionsTableData"><b>
+		<a href=https://kcdc.iap.kit.edu/Preselections/KASCADE_SmallDataSample_nA_runs_0877-7417_ASCII.zip>
+		  <img class="kcdcPreselectionsDownlImg" src="/static/img/kcdc_mainpage/downloadPresel.png"> </a>
+		</b><br><br> 90 MB<br>
+	      <b><a  target="_blank" href="/static/pdf/kaos_datashop/KASCADE_SmallDataSamnple_nA_runs_0877-7417_ASCII.pdf">details</a></b>
+	    </td>
+	    <td valign=top  class="kaosPreselectionsTableData" ><b>
+		<a href=https://kcdc.iap.kit.edu/Preselections/KASCADE_SmallDataSample_nA_runs_0877-7417_ROOT.zip>
+		  <img class="kcdcPreselectionsDownlImg" src="/static/img/kcdc_mainpage/downloadPresel.png"> </a>
+		</b><br><br> 90 MB<br>
+	      <b><a target="_blank" href="/static/pdf/kaos_datashop/KASCADE_SmallDataSamnple_nA_runs_0877-7417_ROOT.pdf">details</a></b>
+	    </td>
+	    <td valign=top  class="kaosPreselectionsTableData"><b>
+		<a href=https://kcdc.iap.kit.edu/Preselections/KASCADE_SmallDataSample_nA_runs_0877-7417_HDF5.zip>
+		  <img class="kcdcPreselectionsDownlImg" src="/static/img/kcdc_mainpage/downloadPresel.png"> </a>
+		</b><br><br> 74 MB<br>
+	      <b><a target="_blank" href="/static/pdf/kaos_datashop/KASCADE_SmallDataSamnple_nA_runs_0877-7417_HDF5.pdf">details</a></b>
+	    </td>
+         </tr>
+
+         <tr>
+            <td valign=top style="border-bottom:2px solid #ffffff"><b> KASCADE_SmallDataSample_wA_runs_0877-7417_xxx</b><br><br>
+	      Data sample with every 400<sup>th</sup> event of the whole data set <br>
+	      included are all detector components, except LPPES,<br> <b>with all data arrays</b>
+	    </td>
+	    <td valign=top  class="kaosPreselectionsTableData" style="border-bottom:2px solid #ffffff" >
+	    </td>
+	    <td valign=top  class="kaosPreselectionsTableData" style="border-bottom:2px solid #ffffff"><b>
+		<a href=https://kcdc.iap.kit.edu/Preselections/KASCADE_SmallDataSample_wA_runs_0877-7417_ROOT.zip>
+		  <img class="kcdcPreselectionsDownlImg" src="/static/img/kcdc_mainpage/downloadPresel.png"> </a>
+		</b><br><br> 830 MB<br>
+	      <b><a target="_blank" href="/static/pdf/kaos_datashop/KASCADE_SmallDataSamnple_wA_runs_0877-7417_ROOT.pdf">details</a></b>
+	    </td>
+	    <td valign=top  class="kaosPreselectionsTableData" style="border-bottom:2px solid #ffffff"><b>
+		<a href=https://kcdc.iap.kit.edu/Preselections/KASCADE_SmallDataSample_wA_runs_0877-7417_HDF5.zip>
+		  <img class="kcdcPreselectionsDownlImg" src="/static/img/kcdc_mainpage/downloadPresel.png"> </a>
+		</b><br><br> 1401 MB<br>
+	      <b><a target="_blank" href="/static/pdf/kaos_datashop/KASCADE_SmallDataSamnple_wA_runs_0877-7417_HDF5.pdf">details</a></b>
+	    </td>
+         </tr>
+
+	</table>
+      </div>
+
+<!--  List of COMBINED Preselections -->
+
+      <div class="kaosPreselectionsAreaBox">
+	<div class="kaosPreselectionsHeadSpacer"> &nbsp;</div>
+	<div class="kaosPreselectionsHeadSpacer"> &nbsp;</div>
+	<div class="kaosPreselectionsAreaBoxHead"   >
+	  <a name="combined">Data Preselections from 'COMBINED' </a>
+	</div>
+	<div class="kaosPreselectionsHeadSpacer"> &nbsp;</div>
+
+ 	<table border frames=void rules=none class="kaosPreselectionsTableHeader">
+          <colgroup>
+            <col width=375 >
+            <col width= 68 >
+            <col width= 68 >
+            <col width= 68 >
+          </colgroup>
+
+	  <tr style="margin-left:10px;">
+	    <td style="text-align:left; padding-left:10px; font-size:14px"> <b>Data sets</b></td>
+	    <td colspan=3 align=center style="border-left:2px solid #e5e5e5;  font-size:14px"> <b>Download Info</b></td>
+	  </tr>
+	  <tr style="height:15px">
+	    <td> </td>
+	    <td style="border-left:2px solid #e5e5e5"> <b>ASCII</b></td>
+	    <td style="border-left:2px solid #e5e5e5"> <b>ROOT</b></td>
+	    <td style="border-left:2px solid #e5e5e5"> <b>HDF5</b></td>
+	  </tr>
+	</table>
+	<div class="kaosPreselectionsTableSpacer"> &nbsp;</div>
+
+ 	<table border frames=void rules=none class="kaosPreselectionsTable">
+         <colgroup>
+            <col width=375 >
+            <col width= 68 >
+            <col width= 68 >
+            <col width= 68 >
+         </colgroup>
+         <tr>
+
+         <tr>
+            <td valign=top><b> COMBINED_ReducedData_runs_4775-7039_xxx</b><br><br>
+	      all COMBINED quantities in the run range 4775-7039, <br>
+	      no cuts applied, no data arrays
+	    </td>
+	    <td valign=top  class="kaosPreselectionsTableData"><b>
+		<a href=https://kcdc.iap.kit.edu/Preselections/COMBINED_ReducedData_runs_4775-7039_ASCII.zip>
+		  <img class="kcdcPreselectionsDownlImg" src="/static/img/kcdc_mainpage/downloadPresel.png"> </a>
+		</b><br><br>1.2 GB<br>
+	      <b><a  target="_blank" href="/static/pdf/kaos_datashop/COMBINED_ReducedData_runs_4775-7039_ASCII.pdf">details</a></b>
+	    </td>
+	    <td valign=top  class="kaosPreselectionsTableData" ><b>
+		<a href=https://kcdc.iap.kit.edu/Preselections/COMBINED_ReducedData_runs_4775-7039_ROOT.zip>
+		  <img class="kcdcPreselectionsDownlImg" src="/static/img/kcdc_mainpage/downloadPresel.png"> </a>
+		</b><br><br> 1.2 GB<br>
+	      <b><a target="_blank" href="/static/pdf/kaos_datashop/COMBINED_ReducedData_runs_4775-7039_ROOT.pdf">details</a></b>
+	    </td>
+	    <td valign=top  class="kaosPreselectionsTableData"><b>
+		<a href=https://kcdc.iap.kit.edu/Preselections/COMBINED_ReducedData_runs_4775-7039_HDF5.zip>
+		  <img class="kcdcPreselectionsDownlImg" src="/static/img/kcdc_mainpage/downloadPresel.png"> </a>
+		</b><br><br>1.0 GB<br>
+	      <b><a target="_blank" href="/static/pdf/kaos_datashop/COMBINED_ReducedData_runs_4775-7039_HDF5.pdf">details</a></b>
+	    </td>
+         </tr>
+
+         <tr>
+            <td valign=top><b>COMBINED_HighEnergyData_runs_4775-7039_xxx</b><br><br>
+	      COMBINED events with a reconstructed primary energy above 10<sup>15.7</sup> eV
+	    </td>
+	    <td valign=top  class="kaosPreselectionsTableData"><b>
+		<a href=https://kcdc.iap.kit.edu/Preselections/COMBINED_HighEnergyData_runs_4775-7039_ASCII.zip>
+		  <img class="kcdcPreselectionsDownlImg" src="/static/img/kcdc_mainpage/downloadPresel.png"> </a>
+		</b><br><br>157 MB<br>
+	      <b><a  target="_blank" href="/static/pdf/kaos_datashop/COMBINED_HighEnergyData_runs_4775-7039_ASCII.pdf">details</a></b>
+	    </td>
+	    <td valign=top  class="kaosPreselectionsTableData" ><b>
+		<a href=https://kcdc.iap.kit.edu/Preselections/COMBINED_HighEnergyData_runs_4775-7039_ROOT.zip>
+		  <img class="kcdcPreselectionsDownlImg" src="/static/img/kcdc_mainpage/downloadPresel.png"> </a>
+		</b><br><br> 150 MB<br>
+	      <b><a target="_blank" href="/static/pdf/kaos_datashop/COMBINED_HighEnergyData_runs_4775-7039_ROOT.pdf">details</a></b>
+	    </td>
+	    <td valign=top  class="kaosPreselectionsTableData"><b>
+		<a href=https://kcdc.iap.kit.edu/Preselections/COMBINED_HighEnergyData_runs_4775-7039_HDF5.zip>
+		  <img class="kcdcPreselectionsDownlImg" src="/static/img/kcdc_mainpage/downloadPresel.png"> </a>
+		</b><br><br>130 MB<br>
+	      <b><a target="_blank" href="/static/pdf/kaos_datashop/COMBINED_HighEnergyData_runs_4775-7039_HDF5.pdf">details</a></b>
+	    </td>
+         </tr>
+
+         <tr>
+            <td valign=top ><b> COMBINED-LOPES_runs_5534-6821_xxx</b><br><br>
+	      COMBINED data sample where LOPES has reconstructed data;
+	      no data arrays
+	    </td>
+	    <td valign=top  class="kaosPreselectionsTableData"><b>
+		<a href=https://kcdc.iap.kit.edu/Preselections/COMBINED-LOPES_runs_5534-6821_ASCII.zip>
+		  <img class="kcdcPreselectionsDownlImg" src="/static/img/kcdc_mainpage/downloadPresel.png"> </a>
+		</b><br><br>258 kB<br>
+	      <b><a  target="_blank" href="/static/pdf/kaos_datashop/COMBINED-LOPES_runs_5534-6821_ASCII.pdf">details</a></b>
+	    </td>
+	    <td valign=top  class="kaosPreselectionsTableData" ><b>
+		<a href=https://kcdc.iap.kit.edu/Preselections/COMBINED-LOPES_runs_5534-6821_ROOT.zip>
+		  <img class="kcdcPreselectionsDownlImg" src="/static/img/kcdc_mainpage/downloadPresel.png"> </a>
+		</b><br><br> 333 kB<br>
+	      <b><a target="_blank" href="/static/pdf/kaos_datashop/COMBINED-LOPES_runs_5534-6821_ROOT.pdf">details</a></b>
+	    </td>
+	    <td valign=top  class="kaosPreselectionsTableData" ><b>
+		<a href=https://kcdc.iap.kit.edu/Preselections/COMBINED-LOPES_runs_5534-6821_HDF5.zip>
+		  <img class="kcdcPreselectionsDownlImg" src="/static/img/kcdc_mainpage/downloadPresel.png"> </a>
+		</b><br><br> 304 kB<br>
+	      <b><a target="_blank" href="/static/pdf/kaos_datashop/COMBINED-LOPES_runs_5534-6821_HDF5.pdf">details</a></b>
+	    </td>
+         </tr>
+
+         <tr>
+            <td valign=top><b> COMBINED_SmallDataSample_nA_runs_4775-7039_xx</b><br><br>
+	      COMBINED data sample with every 40<sup>th</sup> event of the whole data set;
+	      included are COMBINED and LOPES; <br>
+	      no data arrays
+	    </td>
+	    <td valign=top  class="kaosPreselectionsTableData"><b>
+		<a href=https://kcdc.iap.kit.edu/Preselections/COMBINED_SmallDataSample_nA_runs_4775-7039_ASCII.zip>
+		  <img class="kcdcPreselectionsDownlImg" src="/static/img/kcdc_mainpage/downloadPresel.png"> </a>
+		</b><br><br> 33 MB<br>
+	      <b><a  target="_blank" href="/static/pdf/kaos_datashop/COMBINED_SmallDataSamnple_nA_runs_4775-7039_ASCII.pdf">details</a></b>
+	    </td>
+	    <td valign=top  class="kaosPreselectionsTableData" ><b>
+		<a href=https://kcdc.iap.kit.edu/Preselections/COMBINED_SmallDataSample_nA_runs_4775-7039_ROOT.zip>
+		  <img class="kcdcPreselectionsDownlImg" src="/static/img/kcdc_mainpage/downloadPresel.png"> </a>
+		</b><br><br> 33 MB<br>
+	      <b><a target="_blank" href="/static/pdf/kaos_datashop/COMBINED_SmallDataSamnple_nA_runs_4775-7039_ROOT.pdf">details</a></b>
+	    </td>
+	    <td valign=top  class="kaosPreselectionsTableData"><b>
+		<a href=https://kcdc.iap.kit.edu/Preselections/COMBINED_SmallDataSample_nA_runs_4775-7039_HDF5.zip>
+		  <img class="kcdcPreselectionsDownlImg" src="/static/img/kcdc_mainpage/downloadPresel.png"> </a>
+		</b><br><br> 27 MB<br>
+	      <b><a target="_blank" href="/static/pdf/kaos_datashop/COMBINED_SmallDataSamnple_nA_runs_4775-7039_HDF5.pdf">details</a></b>
+	    </td>
+         </tr>
+
+         <tr>
+            <td valign=top style="border-bottom:2px solid #ffffff"><b> COMBINED_SmallDataSample_wA_runs_4775-7039_xx</b><br><br>
+	      COMBINED data sample with every 40<sup>th</sup> event of the whole data set;
+	      included are COMBINED and LOPES,<br> <b>with all data arrays</b>
+	    </td>
+	    <td valign=top  class="kaosPreselectionsTableData" style="border-bottom:2px solid #ffffff" >
+	    </td>
+	    <td valign=top  class="kaosPreselectionsTableData" style="border-bottom:2px solid #ffffff"><b>
+		<a href=https://kcdc.iap.kit.edu/Preselections/COMBINED_SmallDataSample_wA_runs_4775-7039_ROOT.zip>
+		  <img class="kcdcPreselectionsDownlImg" src="/static/img/kcdc_mainpage/downloadPresel.png"> </a>
+		</b><br><br> 376 MB<br>
+	      <b><a target="_blank" href="/static/pdf/kaos_datashop/COMBINED_SmallDataSamnple_wA_runs_4775-7039_ROOT.pdf">details</a></b>
+	    </td>
+	    <td valign=top  class="kaosPreselectionsTableData" style="border-bottom:2px solid #ffffff"><b>
+		<a href=https://kcdc.iap.kit.edu/Preselections/COMBINED_SmallDataSample_wA_runs_4775-7039_HDF5.zip>
+		  <img class="kcdcPreselectionsDownlImg" src="/static/img/kcdc_mainpage/downloadPresel.png"> </a>
+		</b><br><br> 648 MB<br>
+	      <b><a target="_blank" href="/static/pdf/kaos_datashop/COMBINED_SmallDataSamnple_wA_runs_4775-7039_HDF5.pdf">details</a></b>
+	    </td>
+         </tr>
+
+	</table>
+      </div>
+      <div class="kaosPreselectionsHeadSpacer"> &nbsp;</div>
+      <div class="kaosPreselectionsHeadSpacer"> &nbsp;</div>
+
+
+      <div class="kaosPreselectionsAreaBox">
+	<div class="kaosPreselectionsHeadSpacer" style="height:30px"> &nbsp;</div>
+	<div class="kaosPreselectionsNoteHeader"> <b>Important Note:</b></div>
+	<p class="kaosPreselectionsNote">
+	  Since a 'Full Data Set' including the data arrays ('e/&gamma;-deposits',
+	  '&mu;-deposits' and 'arrival times') for KASCADE and COMBINED are much too
+	  large for download (> 500 GB), most of the data sets we offer are
+	  data samples without the data arrays on the 'Preselections' download page. </p>
+	<p class="kaosPreselectionsNote">
+	  If however you are interesteed in the full KCDC data sample
+	  you have to request it in portions by applying appropriate cuts for
+	  example on 'Run Number' (R) or on 'Global Time' (GT) because the
+	  file space per request is limited to 50GB to keep it manageable.</p>
+	<p class="kaosPreselectionsNote">
+	  The 'small data samples' are provided to help you to find the most effective cuts to
+	  submit a request as efficiently as possible. Here data sets with and without
+	  data arrays are available.</p>
+	<p class="kaosPreselectionsNote">
+	  <b>If you need any help to get the data sample you would like to have,
+	    please do not hesitate to contact us &nbsp;&nbsp; '
+            <script type="text/javascript">
+              var name = 'iap&minus;kcdc';
+              var at = '@';
+              var domain = 'lists.kit.edu';
+              document.write('\<a title="e-mail to kcdc" href=\"mailto:' + name + at + domain + '">');
+		document.write(name + '[at]' + domain + '</a>');
+            </script>' .</b>
+      </div>
+
+    </div>
+
+<!--  Info Box -->
+    <div class="kaosInfoBoxDS" title="Information">
+      <div class="kaosInfoLogoDS"><img src="/static/img/main/InfoLogo.png"></div>
+      <div id="InfoBoxHeader" class="kaosInfoBoxHeaderDS">
+        Data Preselections
+      </div>
+      <div id="InfoBoxDetails" class="kaosInfoBoxDetailsDS">
+	This menu offers the option to download preselected data samples for the
+	detectors <b>'KASCADE'</b> and <b>'COMBINED'</b> directly without selecting
+	quantities and applying cuts in the DataShops.<br>
+	'details' provides a more detailed information poge of the respective
+	data set.<br>
+	The 'Small Data Samples' offer the opportunity to check your own
+	requirements on a samall data smple statistically evenly distributed.
+	<br><b>The 'download' button connects to our download server.</b>
+	<br><br>
+	[details -> <b><a style="color:#0000ff" title="kcdc-Manual en"
+	  		   href="/static/pdf/kcdc_mainpage/kcdc-Manual.pdf"
+			   target="_blank">KCDC Manual</a></b> and <b>
+	                 <a style="color:#0000ff" title="kcdc-Combined-Manual en"
+	  		   href="/static/pdf/kcdc_mainpage/kcdc-Combined-Manual.pdf"
+			   target="_blank">KCDC-Combined Manual</a></b> respectively]
+      </div>
+    </div>
+
+</div>
+
+
+        </div>
+
+        <div id="kcdcFooterContainer">
+            <div id="kcdcFooter">
+                <div>
+                  <span class="kcdcFooterVersion">KCDC OPEN -BETA - VERSION
+		    <font style="font-size:12px">QUALOR 2.0 </font> based on:
+		    <font style="font-size:12px">KAOS (2.0.0)</font></span>
+                </div>
+	    </div>
+        </div>
+    </div>
+
+<script type="text/javascript">
+  var _paq = window._paq || [];
+  _paq.push(["setUserId", "vt_kcdc"]);
+
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//zabbix.iap.kit.edu/matomo/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', 2]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//zabbix.iap.kit.edu/matomo/piwik.php?idsite=2" style="border:0;" alt="" /></p></noscript>
+
+</body>
+</html>

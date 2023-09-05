@@ -1,0 +1,69 @@
+{
+    "Identifier": {
+        "identifierType": "DOI",
+        "value": "doi.org/10.17616/R3TS4P"
+    },
+    "Creator": {
+        "creatorName": {
+            "value": "Institute for Astroparticle Physics, Karlsruhe Institute of Technology",
+            "nameType": "Organizational"
+        }
+    },
+    "Title": {
+        "value": "KASCADE_SmallDataSample_nA_runs_0877-7417_HDF5",
+        "titleType": "Main Title"
+    },
+    "Publisher": "KASCADE Cosmic Ray Data Centre (KCDC)",
+    "PublicationYear": 2020,
+    "ResourceType": {
+        "resourceTypeGeneral": "Dataset",
+        "value": "Reconstructed events"
+    },
+    "Subject": {
+        "value": "Cosmic rays & astroparticles",
+        "subjectScheme": "PhySH (Physics Subject Headings)",
+        "schemeURI": "https://physh.org/browse",
+        "valueURI": "https://physh.org/concepts/678197d1-8bf1-4c16-86cc-8133fba03b86",
+        "classificationCode": "678197d1-8bf1-4c16-86cc-8133fba03b86"
+    },
+    "Contributor": {
+        "contributorType": "ResearchGroup",
+        "contributorName": {
+            "value": "KASCADE-Grande Collaboration",
+            "nameType": "Organizational"
+        },
+        "affiliation": {
+            "value": "Karlsruhe Institute of Technology",
+            "affiliationIdentifier": "https://ror.org/04t3en479",
+            "affiliationIdentifierScheme": "ROR",
+            "SchemeURI": "https://ror.org"
+        }
+    },
+    "Date": {
+        "value": "2020-02-05",
+        "dateType": "Created",
+        "dateInformation": "Data selection OCEANUS_1s"
+    },
+    "Language": "en",
+    "Size": "542 kB",
+    "Format": "HDF5",
+    "Version": "OCEANUS_1s",
+    "Rights": {
+        "value": "End User Licence Agreement for using the KCDC IAP webportal and the KCDC data (EULA)",
+        "rightsURI": "https://kcdc.iap.kit.edu/static/pdf/kcdc_mainpage/EULA.pdf"
+    },
+    "Description": [
+        {
+            "descriptionType": "Abstract",
+            "value": "Quick tests of data samples and cuts to optimize requests"
+        },
+        {
+            "descriptionType": "Table of Contents",
+            "value": "Data file names / sizes events.h5 / 74 MB"
+        },
+        {
+            "descriptionType": "TechnicalInfo",
+            "value": "KASCADE quantities selected\nQuantity\tDescription\tRange\tCut\nE\tEstimated primary energy\t1013 -1019 eV\t1/400th\nXc\tX-core position\t-91 - +91 m\t1/400th\nYc\tY-core position\t-91 - +91 m\t1/400th\nZe\tZenith angle\t0° - 60°\t1/400th\nAz\tAzimuth angle\t0° - 360°\t1/400th\nNe\tNumber of e/particles\t100 - 500,000,000\t1/400th\nNmu\tNumber of Muons\t100 - 50,000,000\t1/400th\nAge\tShower age\t0.1 – 1.48\t1/400th\n\n\nCALORIMETER quantities selected\nQuantity\tDescription\tRange\tCut\nNhad\tNumber of Hadrons\t0 – 511\t1/400th\nEhad\tEnergy sum of Nhad Hadrons\t0, 1010 – 1016 eV\t1/400th\n\n\nGRANDE quantities selected\nQuantity\tDescription\tRange\tCut\nXc\tX-core position Grande\t-500 - +100 m\t1/400th\nYc\tY-core position Grande\t-600 - + 100 m\t1/400th\nZe\tZenith angle Grande\t0° - 40°\t1/400th\nAz\tAzimuth angle Grande\t0° - 360°\t1/400th\nNch\tNumber of charged particles Grande 11111 -\t1,000,000,000\t1/400th\nNmu\tNumber of Muons Grande\t1500 - 100,000,000\t1/400th\nAge\tShower age Grande\t-0.385 – +1.488\t1/400th\n\n\nGENERAL quantities selected\nQuantity\tDescription\tRange\tCut\nT\tAir temperature\t-20 ° - +50°\t1/400th\nP\tAir pressure\t960 -1040 hPa\t1/400th\nGt\tGlobal time (sec’s since 1.1.1970)\t894,638,100 –\t1,358,239,243\n1/400th\tMt\tMicro time\t0 – 999,999,999\n1/400th\tDateTime Date & Time\t8.5.1998–15.1.2013\t1/400th\nR\tRun number\t887 - 7417\t1/400th\nEv\tEvent number\t1 – 4,100,000\t1/400th\nUUID\tUniversal Unique Identifier\t\t1/400th\n\n\nLOPES quantities selected\nQuantity\tDescription\tRange\tCut\nEfieldMaxAbs\tmaximum atmospheric electric\tfield\t0 - 50,000 V/m\n1/400th\tAzimuth EW &\tNS\tazimuth of LOPES CC beam; EW\n& NS\t0 – 360°\t1/400th\tElevation\nEW & NS\televation of CC beam; EW & NS\t0 – 360°\t1/400th\nCC Height\tEW & NS\tamplitude of CC beam; EW & NS\t0 – 20\nµV/m/MHz\t1/400th\tXHeight\tEW & NS\namplitude of X-beam; EW & NS\t0 – 20\tµV/m/MHz\t1/400th\nConeAngle\tEW & NS\tcone angle of wavefront; EW &\tNS\n0 – 0,1 rad\t1/400th\tNCCBeanAnt\tEW & NS\nnr of antennas contributing; EW &\tNS\t0 – 30\t1/400th\nEta\tEW & NS\tslope parameter of LDF; EW &\tNS\n-0.04 - 0.11 /m\t1/400th\tEps\tEW & NS\nampl parameter of LDF; EW & NS -0.04 - 0.11\tµV/m/MHz\t1/400th\tGeomag_Angle\nangle between geomagnetic field\tand KASCADE shower axis\t0 – 120 °\t1/400th\nGeomag_AngleG angle between geomagnetic field\tand GRANDE shower axis\t0 – 120 °\t1/400th\nReconstruction\tangle between geomagnetic field\tand GRANDE shower axis\t65 or 71\n1/400th\tLOPES Comp ID LOPES identifier\t0 or 1\t1/400th\n"
+        }
+    ]
+}

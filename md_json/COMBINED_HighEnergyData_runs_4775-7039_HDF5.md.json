@@ -1,0 +1,69 @@
+{
+    "Identifier": {
+        "identifierType": "DOI",
+        "value": "doi.org/10.17616/R3TS4P"
+    },
+    "Creator": {
+        "creatorName": {
+            "value": "Institute for Astroparticle Physics, Karlsruhe Institute of Technology",
+            "nameType": "Organizational"
+        }
+    },
+    "Title": {
+        "value": "COMBINED_HighEnergyData_runs_4775-7039_HDF5",
+        "titleType": "Main Title"
+    },
+    "Publisher": "KASCADE Cosmic Ray Data Centre (KCDC)",
+    "PublicationYear": 2020,
+    "ResourceType": {
+        "resourceTypeGeneral": "Dataset",
+        "value": "Reconstructed events"
+    },
+    "Subject": {
+        "value": "Cosmic rays & astroparticles",
+        "subjectScheme": "PhySH (Physics Subject Headings)",
+        "schemeURI": "https://physh.org/browse",
+        "valueURI": "https://physh.org/concepts/678197d1-8bf1-4c16-86cc-8133fba03b86",
+        "classificationCode": "678197d1-8bf1-4c16-86cc-8133fba03b86"
+    },
+    "Contributor": {
+        "contributorType": "ResearchGroup",
+        "contributorName": {
+            "value": "KASCADE-Grande Collaboration",
+            "nameType": "Organizational"
+        },
+        "affiliation": {
+            "value": "Karlsruhe Institute of Technology",
+            "affiliationIdentifier": "https://ror.org/04t3en479",
+            "affiliationIdentifierScheme": "ROR",
+            "SchemeURI": "https://ror.org"
+        }
+    },
+    "Date": {
+        "value": "2020-04-17",
+        "dateType": "Created",
+        "dateInformation": "Data selection comb_1"
+    },
+    "Language": "en",
+    "Size": "542 kB",
+    "Format": "HDF5",
+    "Version": "comb_1",
+    "Rights": {
+        "value": "End User Licence Agreement for using the KCDC IAP webportal and the KCDC data (EULA)",
+        "rightsURI": "https://kcdc.iap.kit.edu/static/pdf/kcdc_mainpage/EULA.pdf"
+    },
+    "Description": [
+        {
+            "descriptionType": "Abstract",
+            "value": "Analyses with high energetic particles"
+        },
+        {
+            "descriptionType": "Table of Contents",
+            "value": "Data file names / sizes events.h5 / 131 MB"
+        },
+        {
+            "descriptionType": "TechnicalInfo",
+            "value": "KASCADE quantities selected\nQuantity\tDescription\tRange\tCut\nE\tEstimated primary energy\t1015.7 -1019 eV\tcut\nXc\tX-core position\t-500 - +91 m\tfull range\nYc\tY-core position\t-550 - +91 m\tfull range\nZe\tZenith angle\t0° - 30°\tfull range\nAz\tAzimuth angle\t0° - 360°\tfull range\nNe*\tNumber of e/particles\t1e3.2 / 1e4.8 – 1.0e9\tfull range\nNmu\tNumber of Muons\t1000 – 1.9e9\tfull range\nAge\tShower age\t0.15 – 1.48\tfull range\nAge\tShower age\t0.1 – 1.48\tfull range\n\t* for Ne the range depends on the reconstructed shower core position; see manual\t\n\nGENERAL quantities selected\nQuantity\tDescription\tRange\tCut\nT\tAir temperature\t-20 ° - +50°\tfull range\nP\tAir pressure\t960 -1040 hPa\tfull range\nGt\tGlobal time (sec’s since 1.1.1970)\t1,078,737,917 –\t1,288,855,193\nfull range\tMt\tMicro time\t0 – 999,999,999\nfull range\tDateTime Date & Time\t8.3.2004 – 4.11.2010\tfull range\nR\tRun number\t4775 - 7039\tfull range\nEv\tEvent number\t1 – 4,100,000\tfull range\nUUID\tUniversal Unique Identifier\t\tfull range\n\n\nLOPES quantities selected\nQuantity\tDescription\tRange\tCut\nEfieldMaxAbs\tmaximum atmospheric electric\tfield\t0 - 50,000 V/m\n\tAzimuth EW &\tNS\tazimuth of LOPES CC beam; EW\n& NS\t0 – 360°\t\tElevation\nEW & NS\televation of CC beam; EW & NS\t0 – 360°\t\nCC Height\tEW & NS\tamplitude of CC beam; EW & NS\t0 – 20\nµV/m/MHz\t\tXHeight\tEW & NS\namplitude of X-beam; EW & NS\t0 – 20\tµV/m/MHz\t\nConeAngle\tEW & NS\tcone angle of wavefront; EW &\tNS\n0 – 0,1 rad\t\tNCCBeanAnt\tEW & NS\nnr of antennas contributing; EW &\tNS\t0 – 30\t\nEta\tEW & NS\tslope parameter of LDF; EW &\tNS\n-0.04 - 0.11 /m\t\tEps\tEW & NS\nampl parameter of LDF; EW & NS -0.04 - 0.11\tµV/m/MHz\t\tGeomag_Angle\nangle between geomagnetic field\tand KASCADE shower axis\t0 – 120 °\t\nGeomag_AngleG angle between geomagnetic field\tand GRANDE shower axis\t0 – 120 °\t\nReconstruction\tangle between geomagnetic field\tand GRANDE shower axis\t65 or 71\n\tLOPES Comp ID LOPES identifier\t0 or 1\t"
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "Identifier": {
+        "identifierType": "DOI",
+        "value": "doi.org/10.17616/R3TS4P"
+    },
+    "Creator": {
+        "creatorName": {
+            "value": "Institute for Astroparticle Physics, Karlsruhe Institute of Technology",
+            "nameType": "Organizational"
+        }
+    },
+    "Title": {
+        "value": "KASCADE-LOPES_runs_5534-6821_ROOT",
+        "titleType": "Main Title"
+    },
+    "Publisher": "KASCADE Cosmic Ray Data Centre (KCDC)",
+    "PublicationYear": 2020,
+    "ResourceType": {
+        "resourceTypeGeneral": "Dataset",
+        "value": "Reconstructed events"
+    },
+    "Subject": {
+        "value": "Cosmic rays & astroparticles",
+        "subjectScheme": "PhySH (Physics Subject Headings)",
+        "schemeURI": "https://physh.org/browse",
+        "valueURI": "https://physh.org/concepts/678197d1-8bf1-4c16-86cc-8133fba03b86",
+        "classificationCode": "678197d1-8bf1-4c16-86cc-8133fba03b86"
+    },
+    "Contributor": {
+        "contributorType": "ResearchGroup",
+        "contributorName": {
+            "value": "KASCADE-Grande Collaboration",
+            "nameType": "Organizational"
+        },
+        "affiliation": {
+            "value": "Karlsruhe Institute of Technology",
+            "affiliationIdentifier": "https://ror.org/04t3en479",
+            "affiliationIdentifierScheme": "ROR",
+            "SchemeURI": "https://ror.org"
+        }
+    },
+    "Date": {
+        "value": "2020-03-19",
+        "dateType": "Created",
+        "dateInformation": "Data selection OCEANUS"
+    },
+    "Language": "en",
+    "Size": "542 kB",
+    "Format": "ROOT",
+    "Version": "OCEANUS",
+    "Rights": {
+        "value": "End User Licence Agreement for using the KCDC IAP webportal and the KCDC data (EULA)",
+        "rightsURI": "https://kcdc.iap.kit.edu/static/pdf/kcdc_mainpage/EULA.pdf"
+    },
+    "Description": [
+        {
+            "descriptionType": "Abstract",
+            "value": "Analysing data of the CALORIMETER and the KASCADE"
+        },
+        {
+            "descriptionType": "Table of Contents",
+            "value": "events.root / 678 kB"
+        },
+        {
+            "descriptionType": "TechnicalInfo",
+            "value": "KASCADE quantities selected\nQuantity\tDescription\tRange\tCut\nE\tEstimated primary energy\t1013 -1019 eV\tfull range\nXc\tX-core position\t-91 - +91 m\tfull range\nYc\tY-core position\t-91 - +91 m\tfull range\nZe\tZenith angle\t0° - 60°\tfull range\nAz\tAzimuth angle\t0° - 360°\tfull range\nNe\tNumber of e/particles\t100 - 500,000,000\tfull range\nNmu\tNumber of Muons\t100 - 50,000,000\tfull range\nAge\tShower age\t0.1 – 1.48\tfull range\n\n\nGRANDE quantities selected\nQuantity\tDescription\tRange\tCut\nXc\tX-core position Grande\t-500 - +100 m\tfull range\nYc\tY-core position Grande\t-600 - + 100 m\tfull range\nZe\tZenith angle Grande\t0° - 40°\tfull range\nAz\tAzimuth angle Grande\t0° - 360°\tfull range\nNch\tNumber of charged particles\tGrande\t11111 -\n1,000,000,000\tfull range\tNmu\tNumber of Muons Grande\n1500 - 100,000,000\tfull range\tAge\tShower age Grande\n-0.385 – +1.488\tfull range\t\n\ngeneral quantities selected\nQuantity\tDescription\tRange\tCut\nT\tAir temperature\t-20 ° - +50°\tfull range\nP\tAir pressure\t960 -1040 hPa\tfull range\nGt\tGlobal time (sec’s since\t1.1.1970)\t1,133,562,309 –\n1,256,527,520\tcut\tMt\tMicro time\n0 – 999,999,999\tfull range\tDateTime\tDate & Time\n2.12.2005 –\t26.10.2009\tcut\tR\nRun number\t5534-6821\tcut\tEv\nEvent number\t1 – 4,100,000\tfull range\tUUID\nUniversal Unique Identifier\t\tfull range\t\n\nLOPES quantities selected\nQuantity\tDescription\tRange\tCut\nEfieldAbyMax\tmaximum atmospheric electric\tfield\t0.0 –\n50000.0\tfull range\tAzL_EW _NS\tazimuth of LOPES CC beam;\nEW & NS\t0.0 – 360.0° full range\tElL_EW & _NS\televation of CC beam; EW &\nNS\t40 – 90°\tfull range\tCCheight_EW & _NS\namplitude of CC beam; EW &\tNS\t0.0 - 20.0\tµV/m/MHz\nfull range\tXheight_EW & _NS\tamplitude of X-beam; EW &\tNS\n0.0 - 20.0\tμV/m/MHz\tfull range\tconeAngle_EW & _NS\ncone angle of wavefront; EW\t& NS\t0.0 - 0.1 rad full range\tNCCbeanAntennas_EW\n& _NS\tnr of antennas contributing;\tEW & NS\t0 – 30\nfull range\teta_EW & _NS\tslope parameter of LDF; EW &\tNS\n-0.04 - 0.11\t1/m\tfull range\teps_EW & _NS\namplitude parameter of LDF;\tEW & NS\t0.0 - 100.0\tμV/m/MHz\nfull range\trmsCCbeam_EW &\t_NS\tRMS of CC beam; EW & NS\n0.0 - 20.0\tμV/m/MHz\tfull range\tGeomagnetic_Angle\nangle between geomagnetic\tfield and KASCADE shower\taxis\t0.0 - 120.0°\nfull range\tGeomagnetic_AngleG\tangle between geomagnetic\tfield and GRANDE shower\naxis\t0.0 - 120.0°\tfull range\treconstruction\nLOPRES reconstruction done\twith ‘A’ or ‘G’\t65 or 71\tfull range\nLopesCompID\tLOPES identifier\t1\tcut\n\n\nremark\nthis data samples includes only events where LOPES has produced a valid\nreconstruction."
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "Identifier": {
+        "identifierType": "DOI",
+        "value": "doi.org/10.17616/R3TS4P"
+    },
+    "Creator": {
+        "creatorName": {
+            "value": "Institute for Astroparticle Physics, Karlsruhe Institute of Technology",
+            "nameType": "Organizational"
+        }
+    },
+    "Title": {
+        "value": "KASCADE-GRANDE ReducedData _runs_4775-7398_ASCII",
+        "titleType": "Main Title"
+    },
+    "Publisher": "KASCADE Cosmic Ray Data Centre (KCDC)",
+    "PublicationYear": 2020,
+    "ResourceType": {
+        "resourceTypeGeneral": "Dataset",
+        "value": "Reconstructed events"
+    },
+    "Subject": {
+        "value": "Cosmic rays & astroparticles",
+        "subjectScheme": "PhySH (Physics Subject Headings)",
+        "schemeURI": "https://physh.org/browse",
+        "valueURI": "https://physh.org/concepts/678197d1-8bf1-4c16-86cc-8133fba03b86",
+        "classificationCode": "678197d1-8bf1-4c16-86cc-8133fba03b86"
+    },
+    "Contributor": {
+        "contributorType": "ResearchGroup",
+        "contributorName": {
+            "value": "KASCADE-Grande Collaboration",
+            "nameType": "Organizational"
+        },
+        "affiliation": {
+            "value": "Karlsruhe Institute of Technology",
+            "affiliationIdentifier": "https://ror.org/04t3en479",
+            "affiliationIdentifierScheme": "ROR",
+            "SchemeURI": "https://ror.org"
+        }
+    },
+    "Date": {
+        "value": "2020-05-15",
+        "dateType": "Created",
+        "dateInformation": "Data selection NABOO"
+    },
+    "Language": "en",
+    "Size": "542 kB",
+    "Format": "ASCII",
+    "Version": "NABOO",
+    "Rights": {
+        "value": "End User Licence Agreement for using the KCDC IAP webportal and the KCDC data (EULA)",
+        "rightsURI": "https://kcdc.iap.kit.edu/static/pdf/kcdc_mainpage/EULA.pdf"
+    },
+    "Description": [
+        {
+            "descriptionType": "Abstract",
+            "value": "Analysing data of the GRANDE Array only"
+        },
+        {
+            "descriptionType": "Table of Contents",
+            "value": "Data file names / sizes general.txt / 4018 MB\ngrande.txt / 3029 MB\nrow_mapping.txt / 613 MB"
+        },
+        {
+            "descriptionType": "TechnicalInfo",
+            "value": "GRANDE quantities selected\nQuantity\tDescription\tRange\tCut\nXc\tX-core position Grande\t-500 - +100 m\tfull range\nYc\tY-core position Grande\t-600 - + 100 m\tfull range\nZe\tZenith angle Grande\t0° - 40°\tfull range\nAz\tAzimuth angle Grande\t0° - 360°\tfull range\nNch\tNumber of charged particles Grande 11,111 -\t1,000,000,000\tfull range\nNmu\tNumber of Muons Grande\t1500 - 100,000,000\tfull range\nAge\tShower age Grande\t-0.385 – +1.488\tfull range\n\n\nGENERAL quantities selected\nQuantity\tDescription\tRange\tCut\nT\tAir temperature\t-20 ° - +50°\tfull range\nP\tAir pressure\t960 -1040 hPa\tfull range\nGt\tGlobal time (sec’s since 1.1.1970)\t1,078,737,900 –\t1,350,044,820\ncut\tMt\tMicro time\t0 – 999,999,999\nfull range\tDateTime Date & Time\t8.3.2004 –\t12.10.2012\ncut\tR\tRun number\t4775 – 7398\ncut\tEv\tEvent number\t1 – 4,100,000\nfull range\t"
+        }
+    ]
+}
