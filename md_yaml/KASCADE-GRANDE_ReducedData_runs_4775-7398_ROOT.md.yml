@@ -22,18 +22,30 @@ Description:
 - descriptionType: Table of Contents
   value: Data file names / sizes events.root / 3001 MB
 - descriptionType: TechnicalInfo
-  value: "GRANDE quantities selected\nQuantity\tDescription\tRange\tCut\nXc\tX-core\
-    \ position Grande\t-500 - +100 m\tfull range\nYc\tY-core position Grande\t-600\
-    \ - + 100 m\tfull range\nZe\tZenith angle Grande\t0\xB0 - 40\xB0\tfull range\n\
-    Az\tAzimuth angle Grande\t0\xB0 - 360\xB0\tfull range\nNch\tNumber of charged\
-    \ particles Grande 11111 -\t1,000,000,000\tfull range\nNmu\tNumber of Muons Grande\t\
-    1500 \u2013 100,000,000\tfull range\nAge\tShower age Grande\t-0.385 \u2013 +1.488\t\
-    full range\n\n\nGENERAL quantities selected\nQuantity\tDescription\tRange\tCut\n\
-    T\tAir temperature\t-20 \xB0 - +50\xB0\tfull range\nP\tAir pressure\t960 -1040\
-    \ hPa\tfull range\nGt\tGlobal time (sec\u2019s since 1.1.1970)\t1,078,737,900\
-    \ \u2013\t1,350,044,820\ncut\tMt\tMicro time\t0 \u2013 999,999,999\nfull range\t\
-    DateTime Date & Time\t8.3.2004 \u2013\t12.10.2012\ncut\tR\tRun number\t4775 \u2013\
-    \ 7398\ncut\tEv\tEvent number\t1 \u2013 4,100,000\nfull range\t"
+  value: "GRANDE quantities selected\nQuantity |                Description      \
+    \           |       Range        |    Cut    \n---------+--------------------------------------------+--------------------+-----------\n\
+    \   Xc    |           X-core position Grande           |   -500 - +100 m    |\
+    \ full range\n   Yc    |           Y-core position Grande           |   -600 -\
+    \ + 100 m   | full range\n   Ze    |            Zenith angle Grande          \
+    \   |      0\xB0 - 40\xB0      | full range\n   Az    |            Azimuth angle\
+    \ Grande            |     0\xB0 - 360\xB0      | full range\n  Nch    | Number\
+    \ of charged particles Grande 11111 - |   1,000,000,000    | full range\n  Nmu\
+    \    |           Number of Muons Grande           | 1500 \u2013 100,000,000 |\
+    \ full range\n  Age    |             Shower age Grande              |  -0.385\
+    \ \u2013 +1.488   | full range\n         |                                   \
+    \         |                    |           \n\nGENERAL quantities selected\n Quantity\
+    \  |            Description             |      Range      |       Cut      \n\
+    -----------+------------------------------------+-----------------+----------------\n\
+    \    T      |          Air temperature           |  -20 \xB0 - +50\xB0   |   full\
+    \ range   \n    P      |            Air pressure            |  960 -1040 hPa \
+    \ |   full range   \n    Gt     | Global time (sec\u2019s since 1.1.1970) | 1,078,737,900\
+    \ \u2013 |  1,350,044,820 \n   cut     |                 Mt                 |\
+    \   Micro time    | 0 \u2013 999,999,999\nfull range |        DateTime Date &\
+    \ Time        |   8.3.2004 \u2013    |   12.10.2012   \n   cut     |         \
+    \        R                  |   Run number    |   4775 \u2013 7398  \n   cut \
+    \    |                 Ev                 |  Event number   |  1 \u2013 4,100,000\
+    \ \nfull range |                                    |                 |      \
+    \          "
 Format: ROOT
 Identifier:
   identifierType: DOI

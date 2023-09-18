@@ -22,40 +22,94 @@ Description:
 - descriptionType: Table of Contents
   value: Data file names / sizes events.h5 / 2480 MB
 - descriptionType: TechnicalInfo
-  value: "COMBINED quantities selected\nQuantity\tDescription\tRange\tCut\nE\tEstimated\
-    \ primary energy\t1015 -1019 eV\t1/40th\nXc\tX-core position\t-500 - +91 m\t1/40th\n\
-    Yc\tY-core position\t-550 - +91 m\t1/40th\nZe\tZenith angle\t0\xB0 - 30\xB0\t\
-    1/40th\nAz\tAzimuth angle\t0\xB0 - 360\xB0\t1/40th\nNe*\tNumber of e/\uF067\uF020\
-    particles\t1e3.2 / 1e4.8 \u2013 1.0e9\t1/40th\nNmu\tNumber of Muons\t1000 \u2013\
-    \ 1.9e9\t1/40th\nAge\tShower age\t0.15 \u2013 1.48\t1/40th\n\t* for Ne the range\
-    \ depends on the reconstructed shower core position; see manual\t\n\nGENERAL quantities\
-    \ selected\nQuantity\tDescription\tRange\tCut\nT\tAir temperature\t-20 \xB0 -\
-    \ +50\xB0\t1/40th\nP\tAir pressure\t960 -1040 hPa\t1/40th\nGt\tGlobal time (sec\u2019\
-    s since\t1.1.1970)\t1,078,737,917 \u2013\n1,288,855,193\t1/40th\tMt\tMicro time\n\
-    0 \u2013 999,999,999\t1/40th\tDateTime\tDate & Time\n8.3.2004 \u2013\t4.11.2010\t\
-    1/40th\tR\nRun number\t4775 - 7039\t1/40th\tEv\nEvent number\t1 \u2013 4,100,000\t\
-    1/40th\tUUID\nUniversal Unique Identifier\t\t1/40th\tEDeposit\nEnergy Deposit\
-    \ of e/\uF067-particles /\tstation\t0.0 \u2013 30,000.0 MeV\t1/40th\nMDeposit\t\
-    Energy Deposit of Muons /\tstation\t0.0 \u2013 1000.0 MeV\n1/40th\tGDeposit\t\
-    Energy Deposit of charged-\tparticles / GRANDE station\n0.0 \u2013 100,000.0 MeV\
-    \ 1/40th\tArrival\tArrival Time / station\t-1550.0 \u2013 2550.0 ns\n1/40th\t\
-    GArrival\tArrival Time / GRANDE station\t1000.0 \u2013 10,000.0\n1/40th\tHeight\t\
-    amplitude of pulse\t0 \u2013 60 \xB5V/m/MHz\n\tDistance\tdistance of antenna position\
-    \ to\tshower axis\nms\t\tEnvelopTime\ttime of maximum envelop\n0 \u2013 800 ms\t\
-    \tPolarization\talignment of antenna\nNS or EW\t\n\nLOPES quantities selected\n\
-    Quantity\tDescription\tRange\tCut\nEfieldMaxAbs\tmaximum atmospheric electric\t\
-    field\t0 - 50,000 V/m\n\tAzimuth EW &\tNS\tazimuth of LOPES CC beam; EW\n& NS\t\
-    0 \u2013 360\xB0\t\tElevation\nEW & NS\televation of CC beam; EW & NS\t0 \u2013\
-    \ 360\xB0\t\nCC Height\tEW & NS\tamplitude of CC beam; EW & NS\t0 \u2013 20\n\xB5\
-    V/m/MHz\t\tXHeight\tEW & NS\namplitude of X-beam; EW & NS\t0 \u2013 20\t\xB5V/m/MHz\t\
-    \nConeAngle\tEW & NS\tcone angle of wavefront; EW &\tNS\n0 \u2013 0,1 rad\t\t\
-    NCCBeanAnt\tEW & NS\nnr of antennas contributing; EW &\tNS\t0 \u2013 30\t\nEta\t\
-    EW & NS\tslope parameter of LDF; EW &\tNS\n-0.04 - 0.11 /m\t\tEps\tEW & NS\nampl\
-    \ parameter of LDF; EW & NS -0.04 - 0.11\t\xB5V/m/MHz\t\tGeomag_Angle\nangle between\
-    \ geomagnetic field\tand KASCADE shower axis\t0 \u2013 120 \xB0\t\nGeomag_AngleG\
-    \ angle between geomagnetic field\tand GRANDE shower axis\t0 \u2013 120 \xB0\t\
-    \nReconstruction\tangle between geomagnetic field\tand GRANDE shower axis\t65\
-    \ or 71\n\tLOPES Comp ID LOPES identifier\t0 or 1\t"
+  value: "COMBINED quantities selected\nQuantity |                               \
+    \    Description                                    |         Range         |\
+    \  Cut  \n---------+----------------------------------------------------------------------------------+-----------------------+-------\n\
+    \   E     |                             Estimated primary energy             \
+    \                |     1015 -1019 eV     | 1/40th\n   Xc    |                \
+    \                 X-core position                                  |     -500\
+    \ - +91 m      | 1/40th\n   Yc    |                                 Y-core position\
+    \                                  |     -550 - +91 m      | 1/40th\n   Ze   \
+    \ |                                   Zenith angle                           \
+    \        |       0\xB0 - 30\xB0        | 1/40th\n   Az    |                  \
+    \                Azimuth angle                                   |       0\xB0\
+    \ - 360\xB0       | 1/40th\n  Ne*    |                             Number of e/\uF067\
+    \uF020particles                              | 1e3.2 / 1e4.8 \u2013 1.0e9 | 1/40th\n\
+    \  Nmu    |                                 Number of Muons                  \
+    \                |     1000 \u2013 1.9e9      | 1/40th\n  Age    |           \
+    \                         Shower age                                    |    \
+    \  0.15 \u2013 1.48      | 1/40th\n         | * for Ne the range depends on the\
+    \ reconstructed shower core position; see manual |                       |   \
+    \    \n\nGENERAL quantities selected\n            Quantity              |    \
+    \    Description        |              Range              |            Cut   \
+    \         \n----------------------------------+---------------------------+---------------------------------+---------------------------\n\
+    \                T                 |      Air temperature      |          -20\
+    \ \xB0 - +50\xB0           |           1/40th          \n                P   \
+    \              |       Air pressure        |          960 -1040 hPa          |\
+    \           1/40th          \n               Gt                 | Global time\
+    \ (sec\u2019s since  |            1.1.1970)            |      1,078,737,917 \u2013\
+    \      \n          1,288,855,193           |          1/40th           |     \
+    \          Mt                |         Micro time        \n         0 \u2013 999,999,999\
+    \          |          1/40th           |            DateTime             |   \
+    \     Date & Time        \n           8.3.2004 \u2013             |         4.11.2010\
+    \         |             1/40th              |             R             \n   \
+    \        Run number             |        4775 - 7039        |             1/40th\
+    \              |             Ev            \n          Event number          \
+    \  |       1 \u2013 4,100,000       |             1/40th              |      \
+    \      UUID           \n   Universal Unique Identifier    |                  \
+    \         |             1/40th              |          EDeposit         \nEnergy\
+    \ Deposit of e/\uF067-particles / |          station          |       0.0 \u2013\
+    \ 30,000.0 MeV        |           1/40th          \n            MDeposit     \
+    \         | Energy Deposit of Muons / |             station             |    \
+    \  0.0 \u2013 1000.0 MeV     \n             1/40th               |         GDeposit\
+    \          |   Energy Deposit of charged-    | particles / GRANDE station\n  \
+    \ 0.0 \u2013 100,000.0 MeV 1/40th     |          Arrival          |     Arrival\
+    \ Time / station      |    -1550.0 \u2013 2550.0 ns    \n             1/40th \
+    \              |         GArrival          |  Arrival Time / GRANDE station  |\
+    \     1000.0 \u2013 10,000.0     \n             1/40th               |       \
+    \   Height           |       amplitude of pulse        |      0 \u2013 60 \xB5\
+    V/m/MHz      \n                                  |         Distance          |\
+    \ distance of antenna position to |        shower axis        \n             \
+    \  ms                 |                           |           EnvelopTime    \
+    \       |  time of maximum envelop  \n           0 \u2013 800 ms             |\
+    \                           |          Polarization           |    alignment of\
+    \ antenna   \n            NS or EW              |                           |\
+    \                                 |                           \n\nLOPES quantities\
+    \ selected\n                  Quantity                    |           Description\
+    \           |             Range             |             Cut             \n----------------------------------------------+---------------------------------+-------------------------------+-----------------------------\n\
+    \                EfieldMaxAbs                  |  maximum atmospheric electric\
+    \   |             field             |        0 - 50,000 V/m       \n         \
+    \                                     |          Azimuth EW &           |    \
+    \          NS               | azimuth of LOPES CC beam; EW\n                 \
+    \   & NS                      |            0 \u2013 360\xB0             |    \
+    \                           |          Elevation          \n                 \
+    \  EW & NS                    |  elevation of CC beam; EW & NS  |           0\
+    \ \u2013 360\xB0            |                             \n                 \
+    \ CC Height                   |             EW & NS             | amplitude of\
+    \ CC beam; EW & NS |            0 \u2013 20           \n                  \xB5\
+    V/m/MHz                    |                                 |            XHeight\
+    \            |           EW & NS           \n        amplitude of X-beam; EW &\
+    \ NS          |             0 \u2013 20              |           \xB5V/m/MHz \
+    \           |                             \n                  ConeAngle      \
+    \             |             EW & NS             | cone angle of wavefront; EW\
+    \ & |              NS             \n                 0 \u2013 0,1 rad        \
+    \          |                                 |          NCCBeanAnt           |\
+    \           EW & NS           \n      nr of antennas contributing; EW &      \
+    \ |               NS                |            0 \u2013 30             |   \
+    \                          \n                     Eta                      | \
+    \            EW & NS             | slope parameter of LDF; EW &  |           \
+    \   NS             \n               -0.04 - 0.11 /m                |         \
+    \                        |              Eps              |           EW & NS \
+    \          \n ampl parameter of LDF; EW & NS -0.04 - 0.11  |            \xB5V/m/MHz\
+    \             |                               |         Geomag_Angle        \n\
+    \       angle between geomagnetic field        |     and KASCADE shower axis \
+    \    |           0 \u2013 120 \xB0           |                             \n\
+    Geomag_AngleG angle between geomagnetic field |     and GRANDE shower axis   \
+    \   |           0 \u2013 120 \xB0           |                             \n \
+    \              Reconstruction                 | angle between geomagnetic field\
+    \ |    and GRANDE shower axis     |           65 or 71          \n           \
+    \                                   | LOPES Comp ID LOPES identifier  |      \
+    \      0 or 1             |                             "
 Format: ROOT
 Identifier:
   identifierType: DOI

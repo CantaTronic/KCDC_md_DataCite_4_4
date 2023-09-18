@@ -31,7 +31,7 @@ def parse_preselections():
     for filename in glob('preselections/*.pdf'):
         print(filename)
         md = fill_md(filename)
-        print(md['Description'][2]['value'])
+        # print(md['Description'][2]['value'])
         filename = filename.rpartition('/')[2].rpartition('.')[0]
         if 'Samnple' in filename:
             filename = filename.replace('Samnple', 'Sample')
@@ -75,5 +75,5 @@ def parse_descriptions():
 
 if __name__ == '__main__':
     #download_preselections()
-    #parse_preselections()
+    parse_preselections()
     parse_descriptions()

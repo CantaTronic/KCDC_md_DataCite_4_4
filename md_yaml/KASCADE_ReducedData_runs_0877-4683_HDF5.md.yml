@@ -22,21 +22,32 @@ Description:
 - descriptionType: Table of Contents
   value: Data file names / sizes events.root / 223 MB
 - descriptionType: TechnicalInfo
-  value: "KASCADE quantities selected\nQuantity\tDescription\tRange\tCut\nE\tEstimated\
-    \ primary energy\t1013 -1019 eV\tfull range\nXc\tX-core position\t-91 - +91 m\t\
-    full range\nYc\tY-core position\t-91 - +91 m\tfull range\nZe\tZenith angle\t0\xB0\
-    \ - 60\xB0\tfull range\nAz\tAzimuth angle\t0\xB0 - 360\xB0\tfull range\nNe\tNumber\
-    \ of e/\uF067\uF020particles\t100 - 500,000,000\tfull range\nNmu\tNumber of Muons\t\
-    100 - 50,000,000\tfull range\nAge\tShower age\t0.1 \u2013 1.48\tfull range\n\n\
-    \ngeneral quantities selected\nQuantity\tDescription\tRange\tCut\nT\tAir temperature\t\
-    -20 \xB0 - +50\xB0\tfull range\nP\tAir pressure\t960 -1040 hPa\tfull range\nGt\t\
-    Global time (sec\u2019s since 1.1.1970)\t894,638,100 \u2013\t1,017,887,940\ncut\t\
-    Mt\tMicro time\t0 \u2013 999,999,999\nfull range\tDateTime Date & Time\t8.5.1998\u2013\
-    20.12.2003\tcut\nR\tRun number\t877 \u2013 4683\tcut\nEv\tEvent number\t1 \u2013\
-    \ 4,100,000\tfull range\n\n\nremark\nThis is the data set published up to now\
-    \ with the releases VULCAN and\nMERIDIAN. The only difference is that the data\
-    \ for this release have been\nreanalyzed using a more precise time calibration\
-    \ for the KASCADE array."
+  value: "KASCADE quantities selected\nQuantity |       Description        |     \
+    \  Range       |    Cut    \n---------+--------------------------+-------------------+-----------\n\
+    \   E     | Estimated primary energy |   1013 -1019 eV   | full range\n   Xc \
+    \   |     X-core position      |    -91 - +91 m    | full range\n   Yc    |  \
+    \   Y-core position      |    -91 - +91 m    | full range\n   Ze    |       Zenith\
+    \ angle       |     0\xB0 - 60\xB0      | full range\n   Az    |      Azimuth\
+    \ angle       |     0\xB0 - 360\xB0     | full range\n   Ne    | Number of e/\uF067\
+    \uF020particles  | 100 - 500,000,000 | full range\n  Nmu    |     Number of Muons\
+    \      | 100 - 50,000,000  | full range\n  Age    |        Shower age        |\
+    \    0.1 \u2013 1.48     | full range\n         |                          | \
+    \                  |           \n\ngeneral quantities selected\n Quantity  | \
+    \           Description             |        Range        |       Cut      \n\
+    -----------+------------------------------------+---------------------+----------------\n\
+    \    T      |          Air temperature           |    -20 \xB0 - +50\xB0     |\
+    \   full range   \n    P      |            Air pressure            |    960 -1040\
+    \ hPa    |   full range   \n    Gt     | Global time (sec\u2019s since 1.1.1970)\
+    \ |    894,638,100 \u2013    |  1,017,887,940 \n   cut     |                 Mt\
+    \                 |     Micro time      | 0 \u2013 999,999,999\nfull range | \
+    \       DateTime Date & Time        | 8.5.1998\u201320.12.2003 |       cut   \
+    \   \n    R      |             Run number             |     877 \u2013 4683  \
+    \    |       cut      \n    Ev     |            Event number            |    1\
+    \ \u2013 4,100,000    |   full range   \n           |                        \
+    \            |                     |                \n\nremark\nThis is the data\
+    \ set published up to now with the releases VULCAN and\nMERIDIAN. The only difference\
+    \ is that the data for this release have been\nreanalyzed using a more precise\
+    \ time calibration for the KASCADE array."
 Format: HDF5
 Identifier:
   identifierType: DOI

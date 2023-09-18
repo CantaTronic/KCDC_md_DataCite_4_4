@@ -51,6 +51,29 @@ def _get_setup_md(txt, start_ln):
             yield '\t'.join(row)
             row = []
 
+def _format_setup_md(md):
+    md = list(list(cell.strip() for cell in ln.split('\t')) for ln in md)
+    n_cols = max(len(row) for row in md)
+    col_widths = list(0 for _ in range(n_cols))
+    for row in md:
+        if len(row) < n_cols:
+            row.extend('' for _ in range(n_cols-len(row)))
+        for i_col, cell in enumerate(row):
+            if len(cell) > col_widths[i_col]:
+                col_widths[i_col] = len(cell)
+    hdr = ' | '.join(
+        f'{cell: ^{col_widths[i_col]}}' for i_col, cell in enumerate(md[0])
+    ) + '\n'
+    sep = '-+-'.join(
+        '-'*col_w for col_w in col_widths
+    ) + '\n'
+    txt = hdr + sep + '\n'.join(
+        ' | '.join(
+            f'{cell: ^{col_widths[i_col]}}' for i_col, cell in enumerate(row)
+        ) for row in md[1:]
+    )
+    return txt
+
 def _get_remark(txt):
     started = False
     for ln in _iter_text(txt):
@@ -65,7 +88,8 @@ def _get_technical_info(txt):
     is_started = False
     for ln in _iter_text(txt):
         if 'quantities selected' in ln:
-            yield ln + '\n' + '\n'.join(_get_setup_md(txt, ln))
+            setup_md = list(_get_setup_md(txt, ln))
+            yield ln + '\n' + _format_setup_md(setup_md)
         if ln == 'remark':
             yield '\n'.join(_get_remark(txt))
 

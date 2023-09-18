@@ -26,21 +26,40 @@ Description:
 
     row_mapping.txt / 57 MB'
 - descriptionType: TechnicalInfo
-  value: "KASCADE quantities selected\nQuantity\tDescription\tRange\tCut\nE\tEstimated\
-    \ primary energy\t1013 -1019 eV\tfull range\nXc\tX-core position\t-91 - +91 m\t\
-    full range\nYc\tY-core position\t-91 - +91 m\tfull range\nZe\tZenith angle\t0\xB0\
-    \ - 60\xB0\tfull range\nAz\tAzimuth angle\t0\xB0 - 360\xB0\tfull range\nNe\tNumber\
-    \ of e/\uF067\uF020particles\t100 - 500,000,000\tfull range\nNmu\tNumber of Muons\t\
-    100 - 50,000,000\tfull range\nAge\tShower age\t0.1 \u2013 1.48\tfull range\n\n\
-    \nCALORIMETER quantities selected\nQuantity\tDescription\tRange\tCut\nNhad\tNumber\
-    \ of Hadrons\t1 \u2013 511\tcut\nEhad\tEnergy sum of Nhad Hadrons\t0, 1010 \u2013\
-    \ 1016 eV\tfull range\n\n\nGENERAL quantities selected\nQuantity\tDescription\t\
-    Range\tCut\nT\tAir temperature\t-20 \xB0 - +50\xB0\tfull range\nP\tAir pressure\t\
-    960 -1040 hPa\tfull range\nGt\tGlobal time (sec\u2019s since 1.1.1970)\t894,645,350\
-    \ \u2013\t1,134,213,640\ncut\tMt\tMicro time\t0 \u2013 999,999,999\nfull range\t\
-    DateTime Date & Time\t8.5.1998 \u2013\t12.10.2005\ncut\tR\tRun number\t877 - 5496\n\
-    cut\tEv\tEvent number\t1 \u2013 4,100,000\nfull range\t\tNote: only Events with\
-    \ reconstructed Calorimeter data (Nhad>0) are included\t"
+  value: "KASCADE quantities selected\nQuantity |       Description        |     \
+    \  Range       |    Cut    \n---------+--------------------------+-------------------+-----------\n\
+    \   E     | Estimated primary energy |   1013 -1019 eV   | full range\n   Xc \
+    \   |     X-core position      |    -91 - +91 m    | full range\n   Yc    |  \
+    \   Y-core position      |    -91 - +91 m    | full range\n   Ze    |       Zenith\
+    \ angle       |     0\xB0 - 60\xB0      | full range\n   Az    |      Azimuth\
+    \ angle       |     0\xB0 - 360\xB0     | full range\n   Ne    | Number of e/\uF067\
+    \uF020particles  | 100 - 500,000,000 | full range\n  Nmu    |     Number of Muons\
+    \      | 100 - 50,000,000  | full range\n  Age    |        Shower age        |\
+    \    0.1 \u2013 1.48     | full range\n         |                          | \
+    \                  |           \n\nCALORIMETER quantities selected\nQuantity |\
+    \        Description         |       Range       |    Cut    \n---------+----------------------------+-------------------+-----------\n\
+    \  Nhad   |     Number of Hadrons      |      1 \u2013 511      |    cut    \n\
+    \  Ehad   | Energy sum of Nhad Hadrons | 0, 1010 \u2013 1016 eV | full range\n\
+    \         |                            |                   |           \n\nGENERAL\
+    \ quantities selected\n Quantity  |            Description             |     \
+    \                               Range                                    |   \
+    \    Cut      \n-----------+------------------------------------+-----------------------------------------------------------------------------+----------------\n\
+    \    T      |          Air temperature           |                           \
+    \     -20 \xB0 - +50\xB0                                 |   full range   \n \
+    \   P      |            Air pressure            |                            \
+    \    960 -1040 hPa                                |   full range   \n    Gt  \
+    \   | Global time (sec\u2019s since 1.1.1970) |                              \
+    \  894,645,350 \u2013                                |  1,134,213,640 \n   cut\
+    \     |                 Mt                 |                                 Micro\
+    \ time                                  | 0 \u2013 999,999,999\nfull range | \
+    \       DateTime Date & Time        |                                 8.5.1998\
+    \ \u2013                                  |   12.10.2005   \n   cut     |    \
+    \             R                  |                                 Run number\
+    \                                  |   877 - 5496   \n   cut     |           \
+    \      Ev                 |                                Event number      \
+    \                           |  1 \u2013 4,100,000 \nfull range |             \
+    \                       | Note: only Events with reconstructed Calorimeter data\
+    \ (Nhad>0) are included |                "
 Format: ASCII
 Identifier:
   identifierType: DOI
