@@ -93,6 +93,21 @@ def _get_technical_info(txt):
         if ln == 'remark':
             yield '\n'.join(_get_remark(txt))
 
+def _get_size(txt: str):
+    is_started = False
+    rec = ''
+    for ln in _iter_text(txt):
+        if 'Zip-file' in ln:
+            is_started = True
+            continue
+        if not is_started: continue
+        if ln == '': continue
+        if 'Data file names / sizes' in ln: break
+        if not '/' in ln: continue
+        return ln.rpartition('/')[2].strip().replace(',', '.')
+    print(txt)
+    raise RuntimeError('Can\'t extract file size')
+
 def fill_md(filename: str):
     txt = extract_text(filename=filename)
     lines = _iter_text(txt)
@@ -117,5 +132,6 @@ def fill_md(filename: str):
             md['Description'][0]['value'] = next(lines)
         if 'Data file names / sizes' in ln:
             md['Description'][1]['value'] = '\n'.join(_get_toc(txt))
+    md['Size'] = _get_size(txt)
     md['Description'][2]['value'] = '\n\n'.join(_get_technical_info(txt))
     return md
