@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 https://schema.datacite.org/meta/kernel-4.4/metadata.xsd">
+ <identifier identifierType="DOI">
+  10.17616/R3TS4P
+ </identifier>
+ <creators>
+  <creator>
+   <creatorName nameType="Organizational">
+    Institute for Astroparticle Physics, Karlsruhe Institute of Technology
+   </creatorName>
+  </creator>
+ </creators>
+ <titles>
+  <title xml:lang="en-US">
+   KASCADE_HighEnergyData_runs_0877-7417_ROOT
+  </title>
+  <title titleType="Subtitle" xml:lang="en-US">
+   KASCADE_HighEnergyData_runs_0877-7417_ROOT XML metadata
+  </title>
+ </titles>
+ <publisher xml:lang="en">
+  KASCADE Cosmic Ray Data Centre (KCDC)
+ </publisher>
+ <publicationYear>
+  2020
+ </publicationYear>
+ <subjects>
+  <subject classificationCode="678197d1-8bf1-4c16-86cc-8133fba03b86" schemeURI="https://physh.org/browse" subjectScheme="PhySH (Physics Subject Headings)" valueURI="https://physh.org/concepts/678197d1-8bf1-4c16-86cc-8133fba03b86" xml:lang="en-US">
+   Cosmic rays &amp; astroparticles
+  </subject>
+ </subjects>
+ <contributors>
+  <contributor contributorType="ResearchGroup">
+   <contributorName nameType="Organizational">
+    KASCADE-Grande Collaboration
+   </contributorName>
+   <affiliation SchemeURI="https://ror.org" affiliationIdentifier="https://ror.org/04t3en479" affiliationIdentifierScheme="ROR">
+    Karlsruhe Institute of Technology
+   </affiliation>
+  </contributor>
+ </contributors>
+ <dates>
+  <date dateInformation="Data selection NABOO" dateType="Created">
+   2020-05-04
+  </date>
+ </dates>
+ <language>
+  en-US
+ </language>
+ <resourceType resourceTypeGeneral="Dataset">
+  Reconstructed events
+ </resourceType>
+ <sizes>
+  <size>
+   236 MB
+  </size>
+ </sizes>
+ <formats>
+  <format>
+   ROOT
+  </format>
+ </formats>
+ <version>
+  NABOO
+ </version>
+ <rightsList>
+  <rights rightsURI="https://kcdc.iap.kit.edu/static/pdf/kcdc_mainpage/EULA.pdf" xml:lang="en-US">
+   End User Licence Agreement for using the KCDC IAP webportal and the KCDC data (EULA)
+  </rights>
+ </rightsList>
+ <descriptions>
+  <description descriptionType="Abstract" xml:lang="en-US">
+   Analyses with high energetic particles
+  </description>
+  <description descriptionType="Table of Contents" xml:lang="en-US">
+   combined.txt / 140 kB
+general.txt / 163 kB
+lopes.txt / 343 kB
+row_mapping.txt / 18 B
+  </description>
+  <description descriptionType="TechnicalInfo" xml:lang="en-US">
+   KASCADE quantities selected
+Quantity |       Description        |       Range       |    Cut    
+---------+--------------------------+-------------------+-----------
+   E     | Estimated primary energy |  1015.7 -1019 eV  |    cut    
+   Xc    |     X-core position      |    -91 - +91 m    | full range
+   Yc    |     Y-core position      |    -91 - +91 m    | full range
+   Ze    |       Zenith angle       |     0° - 60°      | full range
+   Az    |      Azimuth angle       |     0° - 360°     | full range
+   Ne    | Number of e/particles  | 100 - 500,000,000 | full range
+  Nmu    |     Number of Muons      | 100 - 50,000,000  | full range
+  Age    |        Shower age        |    0.1 – 1.48     | full range
+         |                          |                   |           
+
+CALORIMETER quantities selected
+Quantity |        Description         |       Range       |    Cut    
+---------+----------------------------+-------------------+-----------
+  Nhad   |     Number of Hadrons      |      0 – 511      | full range
+  Ehad   | Energy sum of Nhad Hadrons | 0, 1010 – 1016 eV | full range
+         |                            |                   |           
+
+GRANDE quantities selected
+Quantity |                Description                 |       Range        |    Cut    
+---------+--------------------------------------------+--------------------+-----------
+   Xc    |           X-core position Grande           |   -500 - +100 m    | full range
+   Yc    |           Y-core position Grande           |   -600 - + 100 m   | full range
+   Ze    |            Zenith angle Grande             |      0° - 40°      | full range
+   Az    |            Azimuth angle Grande            |     0° - 360°      | full range
+  Nch    | Number of charged particles Grande 11111 - |   1,000,000,000    | full range
+  Nmu    |           Number of Muons Grande           | 1500 - 100,000,000 | full range
+  Age    |             Shower age Grande              |  -0.385 – +1.488   | full range
+         |                                            |                    |           
+
+GENERAL quantities selected
+ Quantity  |            Description             |       Range        |       Cut      
+-----------+------------------------------------+--------------------+----------------
+    T      |          Air temperature           |    -20 ° - +50°    |   full range   
+    P      |            Air pressure            |   960 -1030 hPa    |   full range   
+    Gt     | Global time (sec’s since 1.1.1970) |   894,638,100 –    |  1,358,239,243 
+full range |                 Mt                 |     Micro time     | 0 – 999,999,999
+full range |        DateTime Date &amp; Time        | 8.5.1998–15.1.2013 |   full range   
+    R      |             Run number             |     877 – 7417     |   full range   
+    Ev     |            Event number            |   1 – 4,100,000    |   full range   
+           |                                    |                    |                
+
+LOPES quantities selected
+         Quantity           |         Description          |            Range             |            Cut            
+----------------------------+------------------------------+------------------------------+---------------------------
+       EfieldAbyMax         | maximum atmospheric electric |            field             |           0.0 –           
+          50000.0           |          full range          |          AzL_EW _NS          | azimuth of LOPES CC beam; 
+          EW &amp; NS           |   0.0 – 360.0° full range    |         ElL_EW &amp; _NS         | elevation of CC beam; EW &amp;
+            NS              |           40 – 90°           |          full range          |     CCheight_EW &amp; _NS     
+amplitude of CC beam; EW &amp;  |              NS              |          0.0 - 20.0          |          µV/m/MHz         
+        full range          |       Xheight_EW &amp; _NS       |  amplitude of X-beam; EW &amp;   |             NS            
+        0.0 - 20.0          |           μV/m/MHz           |          full range          |     coneAngle_EW &amp; _NS    
+cone angle of wavefront; EW |             &amp; NS             |   0.0 - 0.1 rad full range   |     NCCbeanAntennas_EW    
+           &amp; _NS            | nr of antennas contributing; |           EW &amp; NS            |           0 – 30          
+        full range          |         eta_EW &amp; _NS         | slope parameter of LDF; EW &amp; |             NS            
+       -0.04 - 0.11         |             1/m              |          full range          |        eps_EW &amp; _NS       
+amplitude parameter of LDF; |           EW &amp; NS            |         0.0 - 100.0          |          μV/m/MHz         
+        full range          |        rmsCCbeam_EW &amp;        |             _NS              |  RMS of CC beam; EW &amp; NS  
+        0.0 - 20.0          |           μV/m/MHz           |          full range          |     Geomagnetic_Angle     
+ angle between geomagnetic  |   field and KASCADE shower   |             axis             |        0.0 - 120.0°       
+        full range          |      Geomagnetic_AngleG      |  angle between geomagnetic   |  field and GRANDE shower  
+           axis             |         0.0 - 120.0°         |          full range          |       reconstruction      
+LOPRES reconstruction done  |       with ‘A’ or ‘G’        |           65 or 71           |         full range        
+        LopesCompID         |       LOPES identifier       |            0 to 1            |            cut            
+                            |                              |                              |
+  </description>
+ </descriptions>
+</resource>
+

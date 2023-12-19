@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 https://schema.datacite.org/meta/kernel-4.4/metadata.xsd">
+ <identifier identifierType="DOI">
+  10.17616/R3TS4P
+ </identifier>
+ <creators>
+  <creator>
+   <creatorName nameType="Organizational">
+    Institute for Astroparticle Physics, Karlsruhe Institute of Technology
+   </creatorName>
+  </creator>
+ </creators>
+ <titles>
+  <title xml:lang="en-US">
+   COMBINED_LOPES_nA_runs_5534-6821_HDF5
+  </title>
+  <title titleType="Subtitle" xml:lang="en-US">
+   COMBINED_LOPES_nA_runs_5534-6821_HDF5 XML metadata
+  </title>
+ </titles>
+ <publisher xml:lang="en">
+  KASCADE Cosmic Ray Data Centre (KCDC)
+ </publisher>
+ <publicationYear>
+  2020
+ </publicationYear>
+ <subjects>
+  <subject classificationCode="678197d1-8bf1-4c16-86cc-8133fba03b86" schemeURI="https://physh.org/browse" subjectScheme="PhySH (Physics Subject Headings)" valueURI="https://physh.org/concepts/678197d1-8bf1-4c16-86cc-8133fba03b86" xml:lang="en-US">
+   Cosmic rays &amp; astroparticles
+  </subject>
+ </subjects>
+ <contributors>
+  <contributor contributorType="ResearchGroup">
+   <contributorName nameType="Organizational">
+    KASCADE-Grande Collaboration
+   </contributorName>
+   <affiliation SchemeURI="https://ror.org" affiliationIdentifier="https://ror.org/04t3en479" affiliationIdentifierScheme="ROR">
+    Karlsruhe Institute of Technology
+   </affiliation>
+  </contributor>
+ </contributors>
+ <dates>
+  <date dateInformation="Data selection comb_1" dateType="Created">
+   2020-04-20
+  </date>
+ </dates>
+ <language>
+  en-US
+ </language>
+ <resourceType resourceTypeGeneral="Dataset">
+  Reconstructed events
+ </resourceType>
+ <sizes>
+  <size>
+   304 kB
+  </size>
+ </sizes>
+ <formats>
+  <format>
+   HDF5
+  </format>
+ </formats>
+ <version>
+  comb_1
+ </version>
+ <rightsList>
+  <rights rightsURI="https://kcdc.iap.kit.edu/static/pdf/kcdc_mainpage/EULA.pdf" xml:lang="en-US">
+   End User Licence Agreement for using the KCDC IAP webportal and the KCDC data (EULA)
+  </rights>
+ </rightsList>
+ <descriptions>
+  <description descriptionType="Abstract" xml:lang="en-US">
+   Quick tests of data samples and cuts to optimize requests
+  </description>
+  <description descriptionType="Table of Contents" xml:lang="en-US">
+   events.h5 / 301 kB
+  </description>
+  <description descriptionType="TechnicalInfo" xml:lang="en-US">
+   COMBINED quantities selected
+Quantity |                                   Description                                    |         Range         |    Cut    
+---------+----------------------------------------------------------------------------------+-----------------------+-----------
+   E     |                             Estimated primary energy                             |     1015 -1019 eV     | full range
+   Xc    |                                 X-core position                                  |     -500 - +91 m      | full range
+   Yc    |                                 Y-core position                                  |     -550 - +91 m      | full range
+   Ze    |                                   Zenith angle                                   |       0° - 30°        | full range
+   Az    |                                  Azimuth angle                                   |       0° - 360°       | full range
+  Ne*    |                             Number of e/particles                              | 1e3.2 / 1e4.8 – 1.0e9 | full range
+  Nmu    |                                 Number of Muons                                  |     1000 – 1.9e9      | full range
+  Age    |                                    Shower age                                    |      0.15 – 1.48      | full range
+         | * for Ne the range depends on the reconstructed shower core position; see manual |                       |           
+
+GENERAL quantities selected
+         Quantity           |       Description        |     Range     |       Cut      
+----------------------------+--------------------------+---------------+----------------
+             T              |     Air temperature      | -20 ° - +50°  |   full range   
+             P              |       Air pressure       | 960 -1040 hPa |   full range   
+            Gt              | Global time (sec’s since |   1.1.1970)   | 1,078,737,917 –
+       1,288,855,193        |        full range        |      Mt       |   Micro time   
+      0 – 999,999,999       |        full range        |   DateTime    |   Date &amp; Time  
+        8.3.2004 –          |        4.11.2010         |  full range   |        R       
+        Run number          |        5534-6821         |      cut      |       Ev       
+       Event number         |      1 – 4,100,000       |  full range   |      UUID      
+Universal Unique Identifier |                          |  full range   |                
+
+LOPES quantities selected
+                  Quantity                    |           Description           |             Range             |             Cut             
+----------------------------------------------+---------------------------------+-------------------------------+-----------------------------
+                EfieldMaxAbs                  |  maximum atmospheric electric   |             field             |        0 - 50,000 V/m       
+                                              |          Azimuth EW &amp;           |              NS               | azimuth of LOPES CC beam; EW
+                    &amp; NS                      |            0 – 360°             |                               |          Elevation          
+                   EW &amp; NS                    |  elevation of CC beam; EW &amp; NS  |           0 – 360°            |                             
+                  CC Height                   |             EW &amp; NS             | amplitude of CC beam; EW &amp; NS |            0 – 20           
+                  µV/m/MHz                    |                                 |            XHeight            |           EW &amp; NS           
+        amplitude of X-beam; EW &amp; NS          |             0 – 20              |           µV/m/MHz            |                             
+                  ConeAngle                   |             EW &amp; NS             | cone angle of wavefront; EW &amp; |              NS             
+                 0 – 0,1 rad                  |                                 |          NCCBeanAnt           |           EW &amp; NS           
+      nr of antennas contributing; EW &amp;       |               NS                |            0 – 30             |                             
+                     Eta                      |             EW &amp; NS             | slope parameter of LDF; EW &amp;  |              NS             
+               -0.04 - 0.11 /m                |                                 |              Eps              |           EW &amp; NS           
+ ampl parameter of LDF; EW &amp; NS -0.04 - 0.11  |            µV/m/MHz             |                               |         Geomag_Angle        
+       angle between geomagnetic field        |     and KASCADE shower axis     |           0 – 120 °           |                             
+Geomag_AngleG angle between geomagnetic field |     and GRANDE shower axis      |           0 – 120 °           |                             
+               Reconstruction                 | angle between geomagnetic field |    and GRANDE shower axis     |           65 or 71          
+                                              | LOPES Comp ID LOPES identifier  |            1 or 1             |
+  </description>
+ </descriptions>
+</resource>
+

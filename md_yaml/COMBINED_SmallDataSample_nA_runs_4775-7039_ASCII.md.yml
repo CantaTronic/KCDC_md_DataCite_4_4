@@ -20,7 +20,13 @@ Description:
 - descriptionType: Abstract
   value: Quick tests of data samples and cuts to optimize requests
 - descriptionType: Table of Contents
-  value: events.root / 678 kB
+  value: 'combined.txt / 38,2 MB
+
+    general.txt / 44,4 MB
+
+    lopes.txt / 2,7 kB
+
+    row_mapping.txt / 5,2 MB'
 - descriptionType: TechnicalInfo
   value: "COMBINED quantities selected\nQuantity |                               \
     \    Description                                    |         Range         |\

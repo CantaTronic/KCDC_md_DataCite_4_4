@@ -20,7 +20,13 @@ Description:
 - descriptionType: Abstract
   value: Analyses with high energetic particles
 - descriptionType: Table of Contents
-  value: null
+  value: 'combined.txt / 140 kB
+
+    general.txt / 163 kB
+
+    lopes.txt / 343 kB
+
+    row_mapping.txt / 18 B'
 - descriptionType: TechnicalInfo
   value: "KASCADE quantities selected\nQuantity |       Description        |     \
     \  Range       |    Cut    \n---------+--------------------------+-------------------+-----------\n\

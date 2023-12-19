@@ -20,7 +20,7 @@ Description:
 - descriptionType: Abstract
   value: Analyses with high energetic particles
 - descriptionType: Table of Contents
-  value: Data file names / sizes events.h5 / 131 MB
+  value: events.root / 320 MB
 - descriptionType: TechnicalInfo
   value: "COMBINED quantities selected\nQuantity |                               \
     \    Description                                    |         Range         |\

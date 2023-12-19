@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resource xmlns="http://datacite.org/schema/kernel-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-4 https://schema.datacite.org/meta/kernel-4.4/metadata.xsd">
+ <identifier identifierType="DOI">
+  10.17616/R3TS4P
+ </identifier>
+ <creators>
+  <creator>
+   <creatorName nameType="Organizational">
+    Institute for Astroparticle Physics, Karlsruhe Institute of Technology
+   </creatorName>
+  </creator>
+ </creators>
+ <titles>
+  <title xml:lang="en-US">
+   KASCADE_ReducedData _runs_0877-4683_ROOT
+  </title>
+  <title titleType="Subtitle" xml:lang="en-US">
+   KASCADE_ReducedData _runs_0877-4683_ROOT XML metadata
+  </title>
+ </titles>
+ <publisher xml:lang="en">
+  KASCADE Cosmic Ray Data Centre (KCDC)
+ </publisher>
+ <publicationYear>
+  2020
+ </publicationYear>
+ <subjects>
+  <subject classificationCode="678197d1-8bf1-4c16-86cc-8133fba03b86" schemeURI="https://physh.org/browse" subjectScheme="PhySH (Physics Subject Headings)" valueURI="https://physh.org/concepts/678197d1-8bf1-4c16-86cc-8133fba03b86" xml:lang="en-US">
+   Cosmic rays &amp; astroparticles
+  </subject>
+ </subjects>
+ <contributors>
+  <contributor contributorType="ResearchGroup">
+   <contributorName nameType="Organizational">
+    KASCADE-Grande Collaboration
+   </contributorName>
+   <affiliation SchemeURI="https://ror.org" affiliationIdentifier="https://ror.org/04t3en479" affiliationIdentifierScheme="ROR">
+    Karlsruhe Institute of Technology
+   </affiliation>
+  </contributor>
+ </contributors>
+ <dates>
+  <date dateInformation="Data selection NABOO" dateType="Created">
+   2020-05-07
+  </date>
+ </dates>
+ <language>
+  en-US
+ </language>
+ <resourceType resourceTypeGeneral="Dataset">
+  Reconstructed events
+ </resourceType>
+ <sizes>
+  <size>
+   7.051 MB
+  </size>
+ </sizes>
+ <formats>
+  <format>
+   ROOT
+  </format>
+ </formats>
+ <version>
+  NABOO
+ </version>
+ <rightsList>
+  <rights rightsURI="https://kcdc.iap.kit.edu/static/pdf/kcdc_mainpage/EULA.pdf" xml:lang="en-US">
+   End User Licence Agreement for using the KCDC IAP webportal and the KCDC data (EULA)
+  </rights>
+ </rightsList>
+ <descriptions>
+  <description descriptionType="Abstract" xml:lang="en-US">
+   Analyses with high energetic particles
+  </description>
+  <description descriptionType="Table of Contents" xml:lang="en-US">
+   events.root / 320 MB
+  </description>
+  <description descriptionType="TechnicalInfo" xml:lang="en-US">
+   KASCADE quantities selected
+Quantity |       Description        |       Range       |    Cut    
+---------+--------------------------+-------------------+-----------
+   E     | Estimated primary energy |   1013 -1019 eV   | full range
+   Xc    |     X-core position      |    -91 - +91 m    | full range
+   Yc    |     Y-core position      |    -91 - +91 m    | full range
+   Ze    |       Zenith angle       |     0° - 60°      | full range
+   Az    |      Azimuth angle       |     0° - 360°     | full range
+   Ne    | Number of e/particles  | 100 - 500,000,000 | full range
+  Nmu    |     Number of Muons      | 100 - 50,000,000  | full range
+  Age    |        Shower age        |    0.1 – 1.48     | full range
+         |                          |                   |           
+
+general quantities selected
+ Quantity  |            Description             |        Range        |       Cut      
+-----------+------------------------------------+---------------------+----------------
+    T      |          Air temperature           |    -20 ° - +50°     |   full range   
+    P      |            Air pressure            |    960 -1040 hPa    |   full range   
+    Gt     | Global time (sec’s since 1.1.1970) |    894,638,100 –    |  1,017,887,940 
+   cut     |                 Mt                 |     Micro time      | 0 – 999,999,999
+full range |        DateTime Date &amp; Time        | 8.5.1998–20.12.2003 |       cut      
+    R      |             Run number             |     877 – 4683      |       cut      
+    Ev     |            Event number            |    1 – 4,100,000    |   full range   
+           |                                    |                     |                
+
+remark
+This is the data set published up to now with the releases VULCAN and
+MERIDIAN. The only difference is that the data for this release have been
+reanalyzed using a more precise time calibration for the KASCADE array.
+  </description>
+ </descriptions>
+</resource>
+

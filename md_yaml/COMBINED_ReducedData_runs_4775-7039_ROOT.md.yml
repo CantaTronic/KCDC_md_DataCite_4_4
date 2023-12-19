@@ -20,7 +20,7 @@ Description:
 - descriptionType: Abstract
   value: fast download if no data arrays are needed
 - descriptionType: Table of Contents
-  value: null
+  value: events.root / 1024 MB
 - descriptionType: TechnicalInfo
   value: "COMBINED quantities selected\nQuantity |                               \
     \    Description                                    |         Range         |\

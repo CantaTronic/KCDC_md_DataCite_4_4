@@ -20,7 +20,7 @@ Description:
 - descriptionType: Abstract
   value: Quick tests of data samples and cuts to optimize requests
 - descriptionType: Table of Contents
-  value: Data file names / sizes events.root / 94 MB
+  value: events.h5 / 27.4 MB
 - descriptionType: TechnicalInfo
   value: "COMBINED quantities selected\nQuantity |                               \
     \    Description                                    |         Range         |\

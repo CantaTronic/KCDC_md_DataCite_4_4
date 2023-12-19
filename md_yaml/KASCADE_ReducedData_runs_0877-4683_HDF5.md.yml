@@ -20,7 +20,7 @@ Description:
 - descriptionType: Abstract
   value: Quick tests of data samples and cuts to optimize requests
 - descriptionType: Table of Contents
-  value: Data file names / sizes events.root / 223 MB
+  value: events.root / 35 MB
 - descriptionType: TechnicalInfo
   value: "KASCADE quantities selected\nQuantity |       Description        |     \
     \  Range       |    Cut    \n---------+--------------------------+-------------------+-----------\n\

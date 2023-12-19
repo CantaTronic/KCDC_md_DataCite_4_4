@@ -1,0 +1,101 @@
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://datacite.org/schema/kernel-4" xsi:schemaLocation="http://datacite.org/schema/kernel-4 https://schema.datacite.org/meta/kernel-4.4/metadata.xsd">
+    <identifier identifierType="DOI">10.17616/R3TS4P</identifier>
+    <creators>
+        <creator>
+            <creatorName nameType="Organizational">Institute for Astroparticle Physics, Karlsruhe Institute of Technology</creatorName>
+        </creator>
+    </creators>
+    <titles>
+        <title xml:lang="en-US">KASCADE_SmallDataSample_nA_runs_0877-7417_ROOT</title>
+        <title xml:lang="en-US" titleType="Subtitle">KASCADE_SmallDataSample_nA_runs_0877-7417_ROOT XML metadata</title>
+    </titles>
+    <publisher xml:lang="en">KASCADE Cosmic Ray Data Centre (KCDC)</publisher>
+    <publicationYear>2020</publicationYear>
+    <subjects>
+        <subject xml:lang="en-US" schemeURI="https://physh.org/browse" valueURI="https://physh.org/concepts/678197d1-8bf1-4c16-86cc-8133fba03b86" subjectScheme="PhySH (Physics Subject Headings)" classificationCode="678197d1-8bf1-4c16-86cc-8133fba03b86">Cosmic rays &amp; astroparticles</subject>
+    </subjects>
+    <contributors>
+        <contributor contributorType="ResearchGroup">
+            <contributorName nameType="Organizational">KASCADE-Grande Collaboration</contributorName>
+            <affiliation affiliationIdentifier="https://ror.org/04t3en479" affiliationIdentifierScheme="ROR" SchemeURI="https://ror.org">Karlsruhe Institute of Technology</affiliation>
+        </contributor>
+    </contributors>
+    <dates>
+        <date dateType="Created" dateInformation="Data selection OCEANUS_1s">2020-05-02</date>
+    </dates>
+    <language>en-US</language>
+    <resourceType resourceTypeGeneral="Dataset">Reconstructed events</resourceType>
+    <sizes>
+        <size>90 MB</size>
+    </sizes>
+    <formats>
+        <format>ROOT</format>
+    </formats>
+    <version>OCEANUS_1s</version>
+    <rightsList>
+        <rights xml:lang="en-US" rightsURI="https://kcdc.iap.kit.edu/static/pdf/kcdc_mainpage/EULA.pdf">End User Licence Agreement for using the KCDC IAP webportal and the KCDC data (EULA)</rights>
+    </rightsList>
+    <descriptions>
+        <description xml:lang="en-US" descriptionType="Abstract">Quick tests of data samples and cuts to optimize requests</description>
+        <description xml:lang="en-US" descriptionType="Table of Contents">Data file names / sizes events.root / 94 MB</description>
+        <description xml:lang="en-US" descriptionType="TechnicalInfo">
+KASCADE quantities selected
+Quantity |       Description        |       Range       |   Cut
+---------+--------------------------+-------------------+--------
+   E     | Estimated primary energy |   1013 -1019 eV   | 1/400th
+   Xc    |     X-core position      |    -91 - +91 m    | 1/400th
+   Yc    |     Y-core position      |    -91 - +91 m    | 1/400th
+   Ze    |       Zenith angle       |     0° - 60°      | 1/400th
+   Az    |      Azimuth angle       |     0° - 360°     | 1/400th
+   Ne    | Number of e/particles  | 100 - 500,000,000 | 1/400th
+  Nmu    |     Number of Muons      | 100 - 50,000,000  | 1/400th
+  Age    |        Shower age        |    0.1 – 1.48     | 1/400th
+         |                          |                   |
+
+CALORIMETER quantities selected
+Quantity |        Description         |       Range       |   Cut
+---------+----------------------------+-------------------+--------
+  Nhad   |     Number of Hadrons      |      0 – 511      | 1/400th
+  Ehad   | Energy sum of Nhad Hadrons | 0, 1010 – 1016 eV | 1/400th
+         |                            |                   |
+
+GRANDE quantities selected
+Quantity |                Description                 |       Range        |   Cut
+---------+--------------------------------------------+--------------------+--------
+   Xc    |           X-core position Grande           |   -500 - +100 m    | 1/400th
+   Yc    |           Y-core position Grande           |   -600 - + 100 m   | 1/400th
+   Ze    |            Zenith angle Grande             |      0° - 40°      | 1/400th
+   Az    |            Azimuth angle Grande            |     0° - 360°      | 1/400th
+  Nch    | Number of charged particles Grande 11111 - |   1,000,000,000    | 1/400th
+  Nmu    |           Number of Muons Grande           | 1500 - 100,000,000 | 1/400th
+  Age    |             Shower age Grande              |  -0.385 – +1.488   | 1/400th
+         |                                            |                    |
+
+GENERAL quantities selected
+Quantity |            Description             |       Range        |       Cut
+---------+------------------------------------+--------------------+----------------
+   T     |          Air temperature           |    -20 ° - +50°    |     1/400th
+   P     |            Air pressure            |   960 -1040 hPa    |     1/400th
+   Gt    | Global time (sec’s since 1.1.1970) |   894,638,100 – 1,358,239,243 |   1/400th
+   Mt    |          Micro time                | 0 – 999,999,999    |1/400th
+DateTime |          Date &amp; Time           | 8.5.1998–15.1.2013 |     1/400th
+   R     |             Run number             |     887 - 7417     |     1/400th
+   Ev    |            Event number            |   1 – 4,100,000    |     1/400th
+  UUID   |    Universal Unique Identifier     |                    |     1/400th
+         |                                    |                    |
+
+LOPES quantities selected
+                        Quantity                    |           Description          |             Range             |             Cut
+----------------------------------------------+--------------------------------------+-------------------------------+-----------------------------
+                EfieldMaxAbs                  | maximum atmospheric electric field   |        0 - 50,000 V/m         |   1/400th
+                Azimuth EW &amp;NS            | azimuth of LOPES CC beam; EW &amp; NS|            0 – 360°           |   1/400th
+                Elevation EW &amp; NS         | elevation of CC beam; EW &amp; NS    |           0 – 360°            |   1/400th
+                CC Height EW &amp; NS         | amplitude of CC beam; EW &amp; NS    |            0 – 20 µV/m/MHz    |             1/400th
+                XHeight EW &amp; NS           | amplitude of X-beam; EW &amp; NS     |        0 – 20 µV/m/MHz        |           1/400th
+            ConeAngle  EW &amp; NS            | cone angle of wavefront; EW &amp; NS |       0 – 0,1 rad             |             1/400th
+                     NCCBeanAnt EW &amp; NS   | nr of antennas contributing; EW &amp; NS |        0 – 30             |           1/400th
+                Eta EW &amp; NS               | slope parameter of LDF; EW &amp; NS  |       -0.04 - 0.11 /m         |             1/400th
+                Eps EW &amp; NS               | ampl parameter of LDF; EW &amp; NS   |      -0.04 - 0.11  µV/m/MHz   |
+        </description>
+    </descriptions>
+</resource>

@@ -4,7 +4,7 @@ import yaml
 from glob import glob
 import requests
 from bs4 import BeautifulSoup
-from KCDC_MD import fill_md
+from KCDC_MD import fill_md, fill_md_xml
 
 URL = 'https://kcdc.iap.kit.edu'
 
@@ -39,6 +39,8 @@ def parse_preselections():
             print(json.dumps(md, indent=4, ensure_ascii=False), file=f)
         with open(f'md_yaml/{filename}.md.yml', 'w') as f:
             yaml.dump(md, f)
+        with open(f'md_xml/{filename}.md.xml', 'w') as f:
+            print(fill_md_xml(md), file=f)
 
 def parse_descriptions():
     parsed_descr = {}
@@ -76,4 +78,4 @@ def parse_descriptions():
 if __name__ == '__main__':
     #download_preselections()
     parse_preselections()
-    parse_descriptions()
+    # parse_descriptions()

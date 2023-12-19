@@ -20,7 +20,13 @@ Description:
 - descriptionType: Abstract
   value: fast download if no data arrays are needed
 - descriptionType: Table of Contents
-  value: Data file names / sizes events.root / 158 MB
+  value: 'combined.txt / 1529 MB
+
+    general.txt / 1780 MB
+
+    lopes.txt / 343 kB
+
+    row_mapping.txt / 306 MB'
 - descriptionType: TechnicalInfo
   value: "COMBINED quantities selected\nQuantity |                               \
     \    Description                                    |         Range         |\

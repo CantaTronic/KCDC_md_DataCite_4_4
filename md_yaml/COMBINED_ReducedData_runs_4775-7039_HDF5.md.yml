@@ -20,7 +20,7 @@ Description:
 - descriptionType: Abstract
   value: fast download if no data arrays are needed
 - descriptionType: Table of Contents
-  value: null
+  value: events.h5 / 1027 MB
 - descriptionType: TechnicalInfo
   value: "COMBINED quantities selected\nQuantity |                               \
     \    Description                                    |         Range         |\

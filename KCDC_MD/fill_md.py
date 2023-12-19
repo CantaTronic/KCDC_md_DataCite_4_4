@@ -11,7 +11,7 @@ def _get_toc(txt: str):
     is_started = False
     rec = ''
     for ln in _iter_text(txt):
-        if 'Data file names / sizes' in ln:
+        if 'Data file names /' in ln:
             is_started = True
         if not is_started: continue
         if ln == '': continue
@@ -130,7 +130,7 @@ def fill_md(filename: str):
             md['Format'] = next(lines)
         if 'Application' in ln:
             md['Description'][0]['value'] = next(lines)
-        if 'Data file names / sizes' in ln:
+        if 'Data file names /' in ln:
             md['Description'][1]['value'] = '\n'.join(_get_toc(txt))
     md['Size'] = _get_size(txt)
     md['Description'][2]['value'] = '\n\n'.join(_get_technical_info(txt))
